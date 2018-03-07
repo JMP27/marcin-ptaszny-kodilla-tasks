@@ -29,4 +29,6 @@ dependencies {
 	testCompile('org.springframework.boot:spring-boot-starter-test')
     // https://mvnrepository.com/artifact/org.projectlombok/lombok
     compile('org.projectlombok:lombok:1.16.20')
+	// https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-web
+	compile ('org.springframework.boot:spring-boot-starter-web:2.0.0.RELEASE')
 }
