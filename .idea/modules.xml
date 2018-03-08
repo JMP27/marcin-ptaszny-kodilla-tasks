@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/marcin-ptaszny-kodilla-tasks.iml" filepath="$PROJECT_DIR$/marcin-ptaszny-kodilla-tasks.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/marcin-ptaszny-kodilla-tasks_main.iml" filepath="$PROJECT_DIR$/.idea/modules/marcin-ptaszny-kodilla-tasks_main.iml" group="marcin-ptaszny-kodilla-tasks" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/marcin-ptaszny-kodilla-tasks_test.iml" filepath="$PROJECT_DIR$/.idea/modules/marcin-ptaszny-kodilla-tasks_test.iml" group="marcin-ptaszny-kodilla-tasks" />
+    </modules>
+  </component>
+</project>

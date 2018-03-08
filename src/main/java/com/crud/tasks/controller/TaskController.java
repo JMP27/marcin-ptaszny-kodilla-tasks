@@ -22,17 +22,17 @@ public class TaskController {
         return new TaskDto((long)1, "GetTask", "GetTask");
     }
 
-    @RequestMapping(method = RequestMethod.DELETE)
+    @RequestMapping(method = RequestMethod.DELETE, value = "deleteTask")
     public void deleteTask(String taskId){
 
     }
 
-    @RequestMapping(method = RequestMethod.PUT)
+    @RequestMapping(method = RequestMethod.PUT, value = "updateTask")
     public TaskDto updateTask(TaskDto taskDto){
         return new TaskDto((long)1, "Updated task", "Updated task up");
     }
 
-    @RequestMapping(method = RequestMethod.POST)
+    @RequestMapping(method = RequestMethod.POST, value = "createTask")
     public void createTask(TaskDto taskDto){
 
     }
