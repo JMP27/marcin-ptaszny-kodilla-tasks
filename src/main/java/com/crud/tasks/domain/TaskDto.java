@@ -11,5 +11,6 @@ public class TaskDto {
     private String content;
 
     public TaskDto() {
+
     }
 }
