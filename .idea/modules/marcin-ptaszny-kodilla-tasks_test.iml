@@ -30,6 +30,7 @@
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter:2.0.0.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.projectlombok:lombok:1.16.20" level="project" />
     <orderEntry type="library" name="Gradle: mysql:mysql-connector-java:8.0.9-rc" level="project" />
+    <orderEntry type="library" name="Gradle: org.postgresql:postgresql:42.2.1" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-test-autoconfigure:2.0.0.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-test:2.0.0.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-autoconfigure:2.0.0.RELEASE" level="project" />
