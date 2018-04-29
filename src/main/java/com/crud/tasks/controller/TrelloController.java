@@ -30,7 +30,7 @@ public class TrelloController {
 
     // GET request
     public void getTrelloBoards() {
-            List<TrelloBoardDto> trelloBoards = trelloClient.getTrelloBoards();
+        List<TrelloBoardDto> trelloBoards = trelloClient.getTrelloBoards();
 
         trelloBoards.forEach(trelloBoardDto -> {
 

@@ -12,6 +12,8 @@ import org.springframework.web.bind.annotation.CrossOrigin;
 @JsonIgnoreProperties(ignoreUnknown = true)
 @CrossOrigin("*")
 public class Trello {
+
+
     @JsonProperty("board")
     private int board;
 
