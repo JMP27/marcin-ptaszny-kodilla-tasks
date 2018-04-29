@@ -3,11 +3,21 @@
   <component name="ChangeListManager">
     <list default="true" id="fba1d02a-42cf-402c-bbc6-9b5bd01ee3dc" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$" beforeDir="false" afterPath="$PROJECT_DIR$" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/crud/tasks/domain/Trello.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/crud/tasks/domain/Trello.java" afterDir="false" />
+      <change beforePath="$USER_HOME$/Library/Containers/com.apple.mail/Data/Library/Saved Application State/com.apple.mail.savedState/data.data" beforeDir="false" afterPath="$USER_HOME$/Library/Containers/com.apple.mail/Data/Library/Saved Application State/com.apple.mail.savedState/data.data" afterDir="false" />
+      <change beforePath="$USER_HOME$/Library/Containers/com.apple.mail/Data/Library/Saved Application State/com.apple.mail.savedState/windows.plist" beforeDir="false" afterPath="$USER_HOME$/Library/Containers/com.apple.mail/Data/Library/Saved Application State/com.apple.mail.savedState/windows.plist" afterDir="false" />
+      <change beforePath="$USER_HOME$/Library/Containers/com.apple.photoanalysisd/Data/Library/Caches/PGCurationCache.sqlite-shm" beforeDir="false" afterPath="$USER_HOME$/Library/Containers/com.apple.photoanalysisd/Data/Library/Caches/PGCurationCache.sqlite-shm" afterDir="false" />
+      <change beforePath="$USER_HOME$/Library/Containers/com.apple.photoanalysisd/Data/Library/Caches/PGCurationCache.sqlite-wal" beforeDir="false" afterPath="$USER_HOME$/Library/Containers/com.apple.photoanalysisd/Data/Library/Caches/PGCurationCache.sqlite-wal" afterDir="false" />
+      <change beforePath="$USER_HOME$/Library/Containers/com.apple.photomoments/Data/Library/Caches/com.apple.photomoments/Cache.db-shm" beforeDir="false" afterPath="$USER_HOME$/Library/Containers/com.apple.photomoments/Data/Library/Caches/com.apple.photomoments/Cache.db-shm" afterDir="false" />
+      <change beforePath="$USER_HOME$/Library/Containers/com.apple.photomoments/Data/Library/Caches/com.apple.photomoments/Cache.db-wal" beforeDir="false" afterPath="$USER_HOME$/Library/Containers/com.apple.photomoments/Data/Library/Caches/com.apple.photomoments/Cache.db-wal" afterDir="false" />
       <change beforePath="$USER_HOME$/Library/Cookies/Cookies.binarycookies" beforeDir="false" afterPath="$USER_HOME$/Library/Cookies/Cookies.binarycookies" afterDir="false" />
       <change beforePath="$USER_HOME$/Library/Cookies/HSTS.plist" beforeDir="false" afterPath="$USER_HOME$/Library/Cookies/HSTS.plist" afterDir="false" />
+      <change beforePath="$USER_HOME$/Library/Google/GoogleSoftwareUpdate/CountingMetrics.plist" beforeDir="false" afterPath="$USER_HOME$/Library/Google/GoogleSoftwareUpdate/CountingMetrics.plist" afterDir="false" />
+      <change beforePath="$USER_HOME$/Library/Google/GoogleSoftwareUpdate/TicketStore/Keystone.ticketstore" beforeDir="false" afterPath="$USER_HOME$/Library/Google/GoogleSoftwareUpdate/TicketStore/Keystone.ticketstore" afterDir="false" />
       <change beforePath="$APPLICATION_CONFIG_DIR$/options/options.xml" beforeDir="false" afterPath="$APPLICATION_CONFIG_DIR$/options/options.xml" afterDir="false" />
       <change beforePath="$APPLICATION_CONFIG_DIR$/options/recentProjects.xml" beforeDir="false" afterPath="$APPLICATION_CONFIG_DIR$/options/recentProjects.xml" afterDir="false" />
       <change beforePath="$APPLICATION_CONFIG_DIR$/options/usage.statistics.xml" beforeDir="false" afterPath="$APPLICATION_CONFIG_DIR$/options/usage.statistics.xml" afterDir="false" />
+      <change beforePath="$APPLICATION_CONFIG_DIR$/options/window.manager.xml" beforeDir="false" afterPath="$APPLICATION_CONFIG_DIR$/options/window.manager.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -64,11 +74,32 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="true">
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="468">
-              <caret line="34" column="42" lean-forward="true" selection-start-line="34" selection-start-column="42" selection-end-line="34" selection-end-column="42" />
+              <caret line="34" column="6" selection-start-line="34" selection-start-column="6" selection-end-line="34" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Trello.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/crud/tasks/domain/Trello.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -78,18 +109,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
               <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Trello.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/crud/tasks/domain/Trello.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -122,19 +141,10 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/com/crud/tasks/trello/client/TrelloClientTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="24">
-              <caret line="61" column="9" lean-forward="true" selection-start-line="61" selection-start-column="9" selection-end-line="61" selection-end-column="9" />
+              <caret line="61" column="9" selection-start-line="61" selection-start-column="9" selection-end-line="61" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TaskDto.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/crud/tasks/domain/TaskDto.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -399,9 +409,9 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="4570591087000" />
+        <entry key="$PROJECT_DIR$" value="4570591184000" />
         <entry key="$PROJECT_DIR$/.gradle" value="0" />
-        <entry key="$PROJECT_DIR$/build.gradle" value="1038635536" />
+        <entry key="$PROJECT_DIR$/build.gradle" value="2778495855" />
         <entry key="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" value="28730573" />
       </map>
     </option>
@@ -622,7 +632,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/crud/tasks/domain/TrelloBoradDto.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/crud/tasks/domain/TrelloBoardDto" />
         <option value="$PROJECT_DIR$/src/main/java/com/crud/tasks/config/CoreConfiguration.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/src/main/java/com/crud/tasks/domain/TrelloListDto.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/crud/tasks/controller/TrelloController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/crud/tasks/domain/TrelloCardDto.java" />
@@ -636,6 +645,8 @@
         <option value="$PROJECT_DIR$/src/test/java/com/crud/tasks/trello/client/TrelloClientTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/crud/tasks/mapper/TaskMapper.java" />
         <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/crud/tasks/domain/Trello.java" />
       </list>
     </option>
   </component>
@@ -794,36 +805,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="marcin-ptaszny-kodilla-tasks" type="b2602c69:ProjectViewProjectNode" />
-              <item name="marcin-ptaszny-kodilla-tasks" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="marcin-ptaszny-kodilla-tasks" type="b2602c69:ProjectViewProjectNode" />
-              <item name="marcin-ptaszny-kodilla-tasks" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="marcin-ptaszny-kodilla-tasks" type="b2602c69:ProjectViewProjectNode" />
-              <item name="marcin-ptaszny-kodilla-tasks" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="tasks" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="marcin-ptaszny-kodilla-tasks" type="b2602c69:ProjectViewProjectNode" />
-              <item name="marcin-ptaszny-kodilla-tasks" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="tasks" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -1156,7 +1137,7 @@
       <workItem from="1523562393023" duration="3032000" />
       <workItem from="1523898365627" duration="1849000" />
       <workItem from="1524595041812" duration="8801000" />
-      <workItem from="1524743087215" duration="20102000" />
+      <workItem from="1524743087215" duration="21666000" />
     </task>
     <task id="LOCAL-00001" summary="New version">
       <created>1520507257649</created>
@@ -1236,7 +1217,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="85089000" />
+    <option name="totallyTimeSpent" value="86653000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1258,7 +1239,7 @@
       <window_info id="Capture Tool" order="2" />
       <window_info anchor="bottom" id="TypeScript" />
       <window_info id="Designer" order="2" />
-      <window_info anchor="bottom" id="Build" order="7" visible="true" weight="0.19102564" />
+      <window_info anchor="bottom" id="Build" order="7" weight="0.19102564" />
       <window_info anchor="right" id="Database" order="3" weight="0.3294271" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24964234" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -1273,7 +1254,7 @@
       <window_info anchor="bottom" id="Run" order="2" weight="0.37307692" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32948717" />
       <window_info anchor="bottom" id="Spring" order="7" weight="0.32948717" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.12307692" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.4076923" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2157706" />
       <window_info anchor="right" id="Bean Validation" order="3" />
       <window_info id="Web" order="2" side_tool="true" />
@@ -1567,13 +1548,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="19" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/crud/tasks/service/DbService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -1648,16 +1622,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/crud/tasks/domain/Trello.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/crud/tasks/domain/TaskDto.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -1722,7 +1686,7 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/com/crud/tasks/trello/client/TrelloClientTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="24">
-          <caret line="61" column="9" lean-forward="true" selection-start-line="61" selection-start-column="9" selection-end-line="61" selection-end-column="9" />
+          <caret line="61" column="9" selection-start-line="61" selection-start-column="9" selection-end-line="61" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1732,7 +1696,24 @@
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="468">
-          <caret line="34" column="42" lean-forward="true" selection-start-line="34" selection-start-column="42" selection-end-line="34" selection-end-column="42" />
+          <caret line="34" column="6" selection-start-line="34" selection-start-column="6" selection-end-line="34" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/crud/tasks/domain/Trello.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
