@@ -6,6 +6,8 @@ import lombok.AllArgsConstructor;
 import lombok.Getter;
 import org.springframework.web.bind.annotation.CrossOrigin;
 
+import java.util.List;
+
 
 @AllArgsConstructor
 @Getter
@@ -19,4 +21,7 @@ public class Trello {
 
     @JsonProperty("card")
     private int card;
+
+    @JsonProperty("lists")
+    private List<TrelloListDto> lists;
 }
