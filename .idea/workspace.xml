@@ -6,7 +6,7 @@
       <change beforePath="$USER_HOME$/Documents/githubJMP/jmp27.github.io/script.js" beforeDir="false" afterPath="$USER_HOME$/Documents/githubJMP/jmp27.github.io/script.js" afterDir="false" />
       <change beforePath="$USER_HOME$/Documents/githubJMP/jmp27.github.io/styles.css" beforeDir="false" afterPath="$USER_HOME$/Documents/githubJMP/jmp27.github.io/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$" beforeDir="false" afterPath="$PROJECT_DIR$" afterDir="false" />
-      <change beforePath="$USER_HOME$/Library/Containers/com.apple.mail/Data/Library/Preferences/com.apple.mail.plist" beforeDir="false" afterPath="$USER_HOME$/Library/Containers/com.apple.mail/Data/Library/Preferences/com.apple.mail.plist" afterDir="false" />
+      <change beforePath="$USER_HOME$/Library/Containers/com.apple.mail/Data/Library/Preferences/com.apple.LaunchServices.QuarantineEventsV2" beforeDir="false" afterPath="$USER_HOME$/Library/Containers/com.apple.mail/Data/Library/Preferences/com.apple.LaunchServices.QuarantineEventsV2" afterDir="false" />
       <change beforePath="$USER_HOME$/Library/Containers/com.apple.mail/Data/Library/Saved Application State/com.apple.mail.savedState/data.data" beforeDir="false" afterPath="$USER_HOME$/Library/Containers/com.apple.mail/Data/Library/Saved Application State/com.apple.mail.savedState/data.data" afterDir="false" />
       <change beforePath="$USER_HOME$/Library/Containers/com.apple.mail/Data/Library/Saved Application State/com.apple.mail.savedState/windows.plist" beforeDir="false" afterPath="$USER_HOME$/Library/Containers/com.apple.mail/Data/Library/Saved Application State/com.apple.mail.savedState/windows.plist" afterDir="false" />
       <change beforePath="$USER_HOME$/Library/Containers/com.apple.ncplugin.stocks/Data/Library/Caches/com.apple.ncplugin.stocks/Cache.db-shm" beforeDir="false" afterPath="$USER_HOME$/Library/Containers/com.apple.ncplugin.stocks/Data/Library/Caches/com.apple.ncplugin.stocks/Cache.db-shm" afterDir="false" />
@@ -52,32 +52,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Trello.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/crud/tasks/domain/Trello.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="244">
-              <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TaskDto.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/crud/tasks/domain/TaskDto.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="179">
-              <caret line="49" column="81" selection-start-line="49" selection-start-column="81" selection-end-line="49" selection-end-column="81" />
+            <state relative-caret-position="429">
+              <caret line="53" selection-start-line="53" selection-end-line="53" />
             </state>
           </provider>
         </entry>
@@ -85,45 +64,71 @@
       <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+            <state relative-caret-position="345">
+              <caret line="23" column="30" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Task.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/crud/tasks/domain/Task.java">
+      <file leaf-file-name="SimpleEmailService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/crud/tasks/service/SimpleEmailService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+            <state relative-caret-position="428">
+              <caret line="36" column="26" selection-start-line="36" selection-start-column="26" selection-end-line="36" selection-end-column="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CoreConfiguration.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SimpleEmailServiceTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/crud/tasks/service/SimpleEmailServiceTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="397">
+              <caret line="29" column="42" selection-start-line="29" selection-start-column="42" selection-end-line="29" selection-end-column="42" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Mail.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/crud/tasks/domain/Mail.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CoreConfiguration.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/crud/tasks/config/CoreConfiguration.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="381">
-              <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+            <state relative-caret-position="219">
+              <caret line="43" column="38" selection-start-line="43" selection-start-column="38" selection-end-line="43" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#290#291#0" expanded="true" />
                 <element signature="e#327#328#0" expanded="true" />
                 <element signature="e#1379#1380#0" expanded="true" />
                 <element signature="e#1421#1422#0" expanded="true" />
+                <element signature="e#1529#1530#0" expanded="true" />
+                <element signature="e#1573#1574#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CreatedTrelloCard.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/crud/tasks/domain/CreatedTrelloCard.java">
+      <file leaf-file-name="TrelloClient.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/crud/tasks/trello/client/TrelloClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="43">
+              <caret line="6" selection-start-line="6" selection-end-line="7" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -453,9 +458,9 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="4570661269000" />
+        <entry key="$PROJECT_DIR$" value="4570666019000" />
         <entry key="$PROJECT_DIR$/.gradle" value="0" />
-        <entry key="$PROJECT_DIR$/build.gradle" value="1722737119" />
+        <entry key="$PROJECT_DIR$/build.gradle" value="1036089568" />
         <entry key="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" value="28730573" />
       </map>
     </option>
@@ -688,9 +693,12 @@
         <option value="$PROJECT_DIR$/src/main/java/com/crud/tasks/domain/TrelloBoardDto.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/crud/tasks/domain/Trello.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/crud/tasks/controller/TrelloController.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/main/java/com/crud/tasks/config/CoreConfiguration.java" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/crud/tasks/domain/Mail.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/crud/tasks/service/SimpleEmailServiceTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/crud/tasks/service/SimpleEmailService.java" />
       </list>
     </option>
   </component>
@@ -700,8 +708,8 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="y" value="23" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="284" />
     <option name="width" value="1437" />
     <option name="height" value="616" />
   </component>
@@ -794,6 +802,16 @@
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="tasks" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+              <item name="Mail" type="1a9f42e2:ClassTreeNode" />
+            </path>
+            <path>
+              <item name="marcin-ptaszny-kodilla-tasks" type="b2602c69:ProjectViewProjectNode" />
+              <item name="marcin-ptaszny-kodilla-tasks" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tasks" type="462c0819:PsiDirectoryNode" />
               <item name="mapper" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -878,7 +896,7 @@
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="tasks" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -916,6 +934,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.crud.tasks.service" />
       <recent name="com.crud.tasks.trello.client" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
@@ -937,12 +956,35 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.TasksApplication">
+  <component name="RunManager" selected="JUnit.SimpleEmailServiceTest.shouldSendEmail">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="SimpleEmailServiceTest.shouldSendEmail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="marcin-ptaszny-kodilla-tasks_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.crud.tasks.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.crud.tasks.service" />
+      <option name="MAIN_CLASS_NAME" value="com.crud.tasks.service.SimpleEmailServiceTest" />
+      <option name="METHOD_NAME" value="shouldSendEmail" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
     </configuration>
     <configuration name="TrelloClientTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="marcin-ptaszny-kodilla-tasks_test" />
@@ -1166,9 +1208,11 @@
       <item itemvalue="JUnit.TrelloClientTest.shouldFetchTrelloBoards" />
       <item itemvalue="JUnit.TrelloClientTest.shouldCreateCard" />
       <item itemvalue="JUnit.TrelloClientTest.shouldReturnEmptyList" />
+      <item itemvalue="JUnit.SimpleEmailServiceTest.shouldSendEmail" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SimpleEmailServiceTest.shouldSendEmail" />
         <item itemvalue="JUnit.TrelloClientTest.shouldFetchTrelloBoards" />
         <item itemvalue="JUnit.TrelloClientTest.shouldReturnEmptyList" />
         <item itemvalue="JUnit.TrelloClientTest.shouldCreateCard" />
@@ -1211,7 +1255,7 @@
       <workItem from="1523562393023" duration="3032000" />
       <workItem from="1523898365627" duration="1849000" />
       <workItem from="1524595041812" duration="8801000" />
-      <workItem from="1524743087215" duration="38854000" />
+      <workItem from="1524743087215" duration="42315000" />
     </task>
     <task id="LOCAL-00001" summary="New version">
       <created>1520507257649</created>
@@ -1280,24 +1324,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TrelloClientTest_shouldFetchTrelloBoards - 2018.04.29 at 21h 03m 58s.xml">
-      <configuration name="TrelloClientTest.shouldFetchTrelloBoards" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TrelloClientTest_shouldFetchTrelloBoards - 2018.04.29 at 21h 04m 09s.xml">
-      <configuration name="TrelloClientTest.shouldFetchTrelloBoards" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TrelloClientTest_shouldFetchTrelloBoards - 2018.04.29 at 21h 06m 12s.xml">
-      <configuration name="TrelloClientTest.shouldFetchTrelloBoards" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TrelloClientTest_shouldFetchTrelloBoards - 2018.04.29 at 21h 08m 04s.xml">
-      <configuration name="TrelloClientTest.shouldFetchTrelloBoards" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TrelloClientTest_shouldFetchTrelloBoards - 2018.04.29 at 21h 08m 35s.xml">
-      <configuration name="TrelloClientTest.shouldFetchTrelloBoards" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TrelloClientTest_shouldFetchTrelloBoards - 2018.04.29 at 21h 08m 51s.xml">
-      <configuration name="TrelloClientTest.shouldFetchTrelloBoards" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TrelloClientTest_shouldFetchTrelloBoards - 2018.04.29 at 21h 09m 35s.xml">
       <configuration name="TrelloClientTest.shouldFetchTrelloBoards" configurationId="JUnit" />
     </history-entry>
@@ -1310,9 +1336,27 @@
     <history-entry file="TrelloClientTest_shouldFetchTrelloBoards - 2018.04.30 at 09h 13m 48s.xml">
       <configuration name="TrelloClientTest.shouldFetchTrelloBoards" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="SimpleEmailServiceTest_shouldSendEmail - 2018.04.30 at 14h 22m 11s.xml">
+      <configuration name="SimpleEmailServiceTest.shouldSendEmail" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SimpleEmailServiceTest_shouldSendEmail - 2018.04.30 at 14h 29m 05s.xml">
+      <configuration name="SimpleEmailServiceTest.shouldSendEmail" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SimpleEmailServiceTest_shouldSendEmail - 2018.04.30 at 14h 32m 08s.xml">
+      <configuration name="SimpleEmailServiceTest.shouldSendEmail" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SimpleEmailServiceTest_shouldSendEmail - 2018.04.30 at 14h 33m 45s.xml">
+      <configuration name="SimpleEmailServiceTest.shouldSendEmail" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SimpleEmailServiceTest_shouldSendEmail - 2018.04.30 at 14h 35m 00s.xml">
+      <configuration name="SimpleEmailServiceTest.shouldSendEmail" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SimpleEmailServiceTest_shouldSendEmail - 2018.04.30 at 14h 36m 18s.xml">
+      <configuration name="SimpleEmailServiceTest.shouldSendEmail" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="103841000" />
+    <option name="totallyTimeSpent" value="107302000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1324,11 +1368,11 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="877" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5007153" side_tool="true" weight="0.34666666" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info id="Capture Tool" order="2" />
@@ -1346,11 +1390,11 @@
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="7" weight="0.32948717" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2339394" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928468" visible="true" weight="0.15512821" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32948717" />
       <window_info anchor="bottom" id="Spring" order="7" weight="0.32948717" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3468208" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21530758" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49928468" weight="0.5510597" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21530758" />
       <window_info anchor="right" id="Bean Validation" order="3" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="right" id="Gradle" order="3" />
@@ -1411,7 +1455,8 @@
     <MESSAGE value="New version" />
     <MESSAGE value="18.4 - Tests" />
     <MESSAGE value="19.1 - deplo" />
-    <option name="LAST_COMMIT_MESSAGE" value="19.1 - deplo" />
+    <MESSAGE value="19.2 - Swagger" />
+    <option name="LAST_COMMIT_MESSAGE" value="19.2 - Swagger" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1419,27 +1464,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/crud/tasks/TasksApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/crud/tasks/domain/TaskDto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/crud/tasks/controller/TaskController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -1698,16 +1722,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/crud/tasks/trello/client/TrelloClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="41" selection-start-line="41" selection-end-line="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/crud/tasks/trello/config/TrelloConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
@@ -1804,30 +1818,69 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="49" column="81" selection-start-line="49" selection-start-column="81" selection-end-line="49" selection-end-column="81" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/crud/tasks/config/CoreConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="381">
-          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+        <state relative-caret-position="219">
+          <caret line="43" column="38" selection-start-line="43" selection-start-column="38" selection-end-line="43" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#290#291#0" expanded="true" />
             <element signature="e#327#328#0" expanded="true" />
             <element signature="e#1379#1380#0" expanded="true" />
             <element signature="e#1421#1422#0" expanded="true" />
+            <element signature="e#1529#1530#0" expanded="true" />
+            <element signature="e#1573#1574#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="429">
+          <caret line="53" selection-start-line="53" selection-end-line="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="30" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/crud/tasks/trello/client/TrelloClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="43">
+          <caret line="6" selection-start-line="6" selection-end-line="7" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/crud/tasks/domain/Mail.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/crud/tasks/service/SimpleEmailService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="428">
+          <caret line="36" column="26" selection-start-line="36" selection-start-column="26" selection-end-line="36" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/crud/tasks/service/SimpleEmailServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="397">
+          <caret line="29" column="42" selection-start-line="29" selection-start-column="42" selection-end-line="29" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
