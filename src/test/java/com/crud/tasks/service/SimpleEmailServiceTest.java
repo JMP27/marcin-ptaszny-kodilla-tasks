@@ -23,11 +23,15 @@ public class SimpleEmailServiceTest {
     @Test
     public void shouldSendEmail(){
         //Given
-        Mail mail = new Mail("test@test.com","test1@test.com", "Test", "Test Message");
+        Mail mail = new Mail("test@test.com","","Test", "Test Message");
 
         SimpleMailMessage mailMessage = new SimpleMailMessage();
         mailMessage.setTo(mail.getMailTo());
-        mailMessage.setCc(mail.getToCC());
+        if (mail.getToCC().isEmpty()) {
+            System.out.println("no other recipients of the email");
+        } else {
+            mailMessage.setCc(mail.getToCC());
+        }
         mailMessage.setSubject(mail.getSubject());
         mailMessage.setText(mail.getMessage());
 

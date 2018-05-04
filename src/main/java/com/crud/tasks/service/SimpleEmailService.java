@@ -32,14 +32,13 @@ public class SimpleEmailService {
     private SimpleMailMessage createMailMessage(final Mail mail){
         SimpleMailMessage mailMessage = new SimpleMailMessage();
         mailMessage.setTo(mail.getMailTo());
-        mailMessage.setCc(mail.getToCC());
-
         mailMessage.setSubject(mail.getSubject());
         mailMessage.setText(mail.getMessage());
-        if (mail.getToCC() != null) {
+        if (mail.getToCC().isEmpty()) {
+            System.out.println("no other recipients of the email");
             return mailMessage;
         } else {
-            System.out.println("no other recipients of the email");
+            mailMessage.setCc(mail.getToCC());
         }
         return mailMessage;
     }
