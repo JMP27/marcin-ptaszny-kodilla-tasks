@@ -34,12 +34,12 @@ public class SimpleEmailService {
         mailMessage.setTo(mail.getMailTo());
         mailMessage.setSubject(mail.getSubject());
         mailMessage.setText(mail.getMessage());
-        if (mail.getToCC().isEmpty()) {
+        /*if (mail.getToCC().isEmpty()) {
             System.out.println("no other recipients of the email");
             return mailMessage;
         } else {
             mailMessage.setCc(mail.getToCC());
-        }
+        }*/
         return mailMessage;
     }
 }

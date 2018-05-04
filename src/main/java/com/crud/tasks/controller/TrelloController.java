@@ -15,16 +15,16 @@ import java.util.List;
 public class TrelloController {
 
     @Autowired
-    private TrelloClient trelloClient;
+    private TrelloClient trelloService;
 
-    @RequestMapping(method = RequestMethod.GET, value = "getTrelloBoards")
-    /*public void getTrelloBoards() {
+    /*@RequestMapping(method = RequestMethod.GET, value = "getTrelloBoards")
+    public void getTrelloBoards() {
 
         List<TrelloBoardDto> trelloBoards = trelloClient.getTrelloBoards();
 
         trelloBoards.forEach(trelloBoardDto -> System.out.println(trelloBoardDto.getId() + " " + trelloBoardDto.getName()));
 
-    }*/
+    }
 
     // GET request
     public void getTrelloBoards() {
@@ -40,10 +40,16 @@ public class TrelloController {
                 System.out.println(trelloList.getName() + " - " + trelloList.getId() + " - " + trelloList.isClosed()));
 
         });
+    }*/
+
+    @RequestMapping(method = RequestMethod.GET, value = "getTrelloBoards")
+    public List<TrelloBoardDto> getTrelloBoards() {
+        return trelloService.getTrelloBoards();
+
     }
 
     @RequestMapping(method = RequestMethod.POST, value = "createTrelloCard")
     public CreatedTrelloCard createdTrelloCard(@RequestBody TrelloCardDto trelloCardDto) {
-        return trelloClient.createNewCard(trelloCardDto);
+        return trelloService.createNewCard(trelloCardDto);
     }
 }
