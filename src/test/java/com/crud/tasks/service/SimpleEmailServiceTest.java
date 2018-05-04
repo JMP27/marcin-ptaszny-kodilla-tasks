@@ -27,11 +27,6 @@ public class SimpleEmailServiceTest {
 
         SimpleMailMessage mailMessage = new SimpleMailMessage();
         mailMessage.setTo(mail.getMailTo());
-        if (mail.getToCC().isEmpty()) {
-            System.out.println("no other recipients of the email");
-        } else {
-            mailMessage.setCc(mail.getToCC());
-        }
         mailMessage.setSubject(mail.getSubject());
         mailMessage.setText(mail.getMessage());
 

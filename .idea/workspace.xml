@@ -24,6 +24,7 @@
       <change beforePath="$USER_HOME$/Library/Cookies/HSTS.plist" beforeDir="false" afterPath="$USER_HOME$/Library/Cookies/HSTS.plist" afterDir="false" />
       <change beforePath="$USER_HOME$/Library/Cookies/com.apple.appstore.binarycookies" beforeDir="false" afterPath="$USER_HOME$/Library/Cookies/com.apple.appstore.binarycookies" afterDir="false" />
       <change beforePath="$USER_HOME$/Library/Google/GoogleSoftwareUpdate/CountingMetrics.plist" beforeDir="false" afterPath="$USER_HOME$/Library/Google/GoogleSoftwareUpdate/CountingMetrics.plist" afterDir="false" />
+      <change beforePath="$USER_HOME$/Library/Google/GoogleSoftwareUpdate/TicketStore/Keystone.ticketstore" beforeDir="false" afterPath="$USER_HOME$/Library/Google/GoogleSoftwareUpdate/TicketStore/Keystone.ticketstore" afterDir="false" />
       <change beforePath="$APPLICATION_CONFIG_DIR$/options/dimensions.xml" beforeDir="false" afterPath="$APPLICATION_CONFIG_DIR$/options/dimensions.xml" afterDir="false" />
       <change beforePath="$APPLICATION_CONFIG_DIR$/options/options.xml" beforeDir="false" afterPath="$APPLICATION_CONFIG_DIR$/options/options.xml" afterDir="false" />
       <change beforePath="$APPLICATION_CONFIG_DIR$/options/recentProjects.xml" beforeDir="false" afterPath="$APPLICATION_CONFIG_DIR$/options/recentProjects.xml" afterDir="false" />
@@ -64,8 +65,8 @@
       <file leaf-file-name="SimpleEmailService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/crud/tasks/service/SimpleEmailService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="537">
-              <caret line="36" selection-start-line="36" selection-end-line="41" selection-end-column="9" />
+            <state relative-caret-position="365">
+              <caret line="39" column="16" lean-forward="true" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -88,8 +89,8 @@
       <file leaf-file-name="SimpleEmailServiceTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/crud/tasks/service/SimpleEmailServiceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="60" selection-start-line="25" selection-start-column="60" selection-end-line="25" selection-end-column="60" />
+            <state relative-caret-position="525">
+              <caret line="35" column="14" selection-start-line="35" selection-start-column="14" selection-end-line="35" selection-end-column="14" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -1265,7 +1266,7 @@
       <workItem from="1523562393023" duration="3032000" />
       <workItem from="1523898365627" duration="1849000" />
       <workItem from="1524595041812" duration="8801000" />
-      <workItem from="1524743087215" duration="45173000" />
+      <workItem from="1524743087215" duration="46516000" />
     </task>
     <task id="LOCAL-00001" summary="New version">
       <created>1520507257649</created>
@@ -1341,18 +1342,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SimpleEmailServiceTest_shouldSendEmail - 2018.04.30 at 14h 39m 42s.xml">
-      <configuration name="SimpleEmailServiceTest.shouldSendEmail" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SimpleEmailServiceTest_shouldSendEmail - 2018.05.04 at 08h 41m 34s.xml">
-      <configuration name="SimpleEmailServiceTest.shouldSendEmail" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SimpleEmailServiceTest_shouldSendEmail - 2018.05.04 at 08h 41m 49s.xml">
-      <configuration name="SimpleEmailServiceTest.shouldSendEmail" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SimpleEmailServiceTest_shouldSendEmail - 2018.05.04 at 08h 42m 10s.xml">
-      <configuration name="SimpleEmailServiceTest.shouldSendEmail" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="SimpleEmailServiceTest_shouldSendEmail - 2018.05.04 at 08h 42m 40s.xml">
       <configuration name="SimpleEmailServiceTest.shouldSendEmail" configurationId="JUnit" />
     </history-entry>
@@ -1371,9 +1360,21 @@
     <history-entry file="SimpleEmailServiceTest_shouldSendEmail - 2018.05.04 at 08h 50m 57s.xml">
       <configuration name="SimpleEmailServiceTest.shouldSendEmail" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="SimpleEmailServiceTest_shouldSendEmail - 2018.05.04 at 08h 51m 24s.xml">
+      <configuration name="SimpleEmailServiceTest.shouldSendEmail" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SimpleEmailServiceTest_shouldSendEmail - 2018.05.04 at 08h 52m 22s.xml">
+      <configuration name="SimpleEmailServiceTest.shouldSendEmail" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SimpleEmailServiceTest_shouldSendEmail - 2018.05.04 at 08h 52m 44s.xml">
+      <configuration name="SimpleEmailServiceTest.shouldSendEmail" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SimpleEmailServiceTest_shouldSendEmail - 2018.05.04 at 09h 32m 54s.xml">
+      <configuration name="SimpleEmailServiceTest.shouldSendEmail" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="110160000" />
+    <option name="totallyTimeSpent" value="111503000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1891,8 +1892,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/crud/tasks/service/SimpleEmailService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="537">
-          <caret line="36" selection-start-line="36" selection-end-line="41" selection-end-column="9" />
+        <state relative-caret-position="365">
+          <caret line="39" column="16" lean-forward="true" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1901,8 +1902,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/crud/tasks/service/SimpleEmailServiceTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="60" selection-start-line="25" selection-start-column="60" selection-end-line="25" selection-end-column="60" />
+        <state relative-caret-position="525">
+          <caret line="35" column="14" selection-start-line="35" selection-start-column="14" selection-end-line="35" selection-end-column="14" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
