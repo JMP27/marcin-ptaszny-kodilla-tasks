@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.crud.tasks.facade.TrelloFacadeTestSuite" tests="2" skipped="0" failures="0" errors="0" timestamp="2018-05-05T16:52:25" hostname="MBP-Marcin" time="0.011">
+  <properties/>
+  <testcase name="shouldFetchTrelloBoards" classname="com.crud.tasks.facade.TrelloFacadeTestSuite" time="0.009"/>
+  <testcase name="shouldCreateCard" classname="com.crud.tasks.facade.TrelloFacadeTestSuite" time="0.0"/>
+  <system-out><![CDATA[the number of fetched boards is: 0
+the name is: card1
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

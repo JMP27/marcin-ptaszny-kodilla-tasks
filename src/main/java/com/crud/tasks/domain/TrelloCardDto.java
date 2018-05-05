@@ -21,14 +21,4 @@ public class TrelloCardDto {
 
     @JsonProperty("list_Id")
     private String listId;
-
-    //private String name;
-    //private String description;
-    //private String pos;
-    //private String listId;
-
-
-    public TrelloCardDto() {
-    }
-
 }
