@@ -28,6 +28,7 @@
           <element id="library" level="project" name="Gradle: mysql:mysql-connector-java:8.0.9-rc" />
           <element id="library" level="project" name="Gradle: io.springfox:springfox-swagger2:2.8.0" />
           <element id="library" level="project" name="Gradle: io.springfox:springfox-swagger-ui:2.8.0" />
+          <element id="library" level="project" name="Gradle: com.google.code.gson:gson:2.8.2" />
           <element id="library" level="project" name="Gradle: org.springframework.boot:spring-boot-autoconfigure:2.0.0.RELEASE" />
           <element id="library" level="project" name="Gradle: org.springframework.boot:spring-boot:2.0.0.RELEASE" />
           <element id="library" level="project" name="Gradle: org.springframework.boot:spring-boot-starter-logging:2.0.0.RELEASE" />

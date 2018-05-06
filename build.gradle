@@ -47,4 +47,6 @@ dependencies {
 
     // https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-mail
     compile group: 'org.springframework.boot', name: 'spring-boot-starter-mail', version: '2.0.1.RELEASE'
+
+	compile('com.google.code.gson:gson:2.8.2')
 }
