@@ -6,7 +6,6 @@
       <change beforePath="$USER_HOME$/Documents/githubJMP/jmp27.github.io/script.js" beforeDir="false" afterPath="$USER_HOME$/Documents/githubJMP/jmp27.github.io/script.js" afterDir="false" />
       <change beforePath="$USER_HOME$/Documents/githubJMP/jmp27.github.io/styles.css" beforeDir="false" afterPath="$USER_HOME$/Documents/githubJMP/jmp27.github.io/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$" beforeDir="false" afterPath="$PROJECT_DIR$" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/crud/tasks/facade/TrelloFacadeTestSuite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/crud/tasks/facade/TrelloFacadeTestSuite.java" afterDir="false" />
       <change beforePath="$USER_HOME$/Library/Containers/com.apple.iCal/Data/Library/Saved Application State/com.apple.iCal.savedState/data.data" beforeDir="false" afterPath="$USER_HOME$/Library/Containers/com.apple.iCal/Data/Library/Saved Application State/com.apple.iCal.savedState/data.data" afterDir="false" />
       <change beforePath="$USER_HOME$/Library/Containers/com.apple.iCal/Data/Library/Saved Application State/com.apple.iCal.savedState/window_1.data" beforeDir="false" afterPath="$USER_HOME$/Library/Containers/com.apple.iCal/Data/Library/Saved Application State/com.apple.iCal.savedState/window_1.data" afterDir="false" />
       <change beforePath="$USER_HOME$/Library/Containers/com.apple.iCal/Data/Library/Saved Application State/com.apple.iCal.savedState/windows.plist" beforeDir="false" afterPath="$USER_HOME$/Library/Containers/com.apple.iCal/Data/Library/Saved Application State/com.apple.iCal.savedState/windows.plist" afterDir="false" />
@@ -29,7 +28,6 @@
       <change beforePath="$USER_HOME$/Library/Containers/com.apple.photoanalysisd/Data/Library/Caches/CLSLocationCache.sqlite-wal" beforeDir="false" afterPath="$USER_HOME$/Library/Containers/com.apple.photoanalysisd/Data/Library/Caches/CLSLocationCache.sqlite-wal" afterDir="false" />
       <change beforePath="$USER_HOME$/Library/Containers/com.apple.photoanalysisd/Data/Library/Caches/PGCurationCache.sqlite-shm" beforeDir="false" afterPath="$USER_HOME$/Library/Containers/com.apple.photoanalysisd/Data/Library/Caches/PGCurationCache.sqlite-shm" afterDir="false" />
       <change beforePath="$USER_HOME$/Library/Containers/com.apple.photoanalysisd/Data/Library/Caches/PGCurationCache.sqlite-wal" beforeDir="false" afterPath="$USER_HOME$/Library/Containers/com.apple.photoanalysisd/Data/Library/Caches/PGCurationCache.sqlite-wal" afterDir="false" />
-      <change beforePath="$USER_HOME$/Library/Containers/com.apple.quicklook.ui.helper/Container.plist" beforeDir="false" afterPath="$USER_HOME$/Library/Containers/com.apple.quicklook.ui.helper/Container.plist" afterDir="false" />
       <change beforePath="$USER_HOME$/Library/Containers/com.apple.siri.media-indexer/Data/Library/Preferences/com.apple.siri.media-indexer.plist" beforeDir="false" afterPath="$USER_HOME$/Library/Containers/com.apple.siri.media-indexer/Data/Library/Preferences/com.apple.siri.media-indexer.plist" afterDir="false" />
       <change beforePath="$USER_HOME$/Library/Containers/com.apple.siri.media-indexer/Data/mediatitlesdataTable.tdb" beforeDir="false" afterPath="$USER_HOME$/Library/Containers/com.apple.siri.media-indexer/Data/mediatitlesdataTable.tdb" afterDir="false" />
       <change beforePath="$USER_HOME$/Library/Containers/com.apple.siri.media-indexer/Data/mediatitlesedgeTable.tdb" beforeDir="false" afterPath="$USER_HOME$/Library/Containers/com.apple.siri.media-indexer/Data/mediatitlesedgeTable.tdb" afterDir="false" />
@@ -47,6 +45,7 @@
       <change beforePath="$USER_HOME$/Library/Containers/com.microsoft.onenote.mac/Container.plist" beforeDir="false" afterPath="$USER_HOME$/Library/Containers/com.microsoft.onenote.mac/Container.plist" afterDir="false" />
       <change beforePath="$USER_HOME$/Library/Cookies/Cookies.binarycookies" beforeDir="false" afterPath="$USER_HOME$/Library/Cookies/Cookies.binarycookies" afterDir="false" />
       <change beforePath="$USER_HOME$/Library/Cookies/HSTS.plist" beforeDir="false" afterPath="$USER_HOME$/Library/Cookies/HSTS.plist" afterDir="false" />
+      <change beforePath="$USER_HOME$/Library/Cookies/com.apple.Safari.SearchHelper.binarycookies" beforeDir="false" afterPath="$USER_HOME$/Library/Cookies/com.apple.Safari.SearchHelper.binarycookies" afterDir="false" />
       <change beforePath="$USER_HOME$/Library/Cookies/com.apple.appstore.binarycookies" beforeDir="false" afterPath="$USER_HOME$/Library/Cookies/com.apple.appstore.binarycookies" afterDir="false" />
       <change beforePath="$USER_HOME$/Library/Cookies/com.apple.iBooksX.binarycookies" beforeDir="false" afterPath="$USER_HOME$/Library/Cookies/com.apple.iBooksX.binarycookies" afterDir="false" />
       <change beforePath="$USER_HOME$/Library/Google/GoogleSoftwareUpdate/CountingMetrics.plist" beforeDir="false" afterPath="$USER_HOME$/Library/Google/GoogleSoftwareUpdate/CountingMetrics.plist" afterDir="false" />
@@ -72,6 +71,11 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/marcin_ptaszny_kodilla_tasks$All_in_marcin_ptaszny_kodilla_tasks_test__2_.ic" NAME="All in marcin-ptaszny-kodilla-tasks_test (2) Coverage Results" MODIFIED="1525608896985" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/marcin_ptaszny_kodilla_tasks$All_in_marcin_ptaszny_kodilla_tasks_test.ic" NAME="All in marcin-ptaszny-kodilla-tasks_test Coverage Results" MODIFIED="1525605063186" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/marcin_ptaszny_kodilla_tasks$All_in_marcin_ptaszny_kodilla_tasks_test__1_.ic" NAME="All in marcin-ptaszny-kodilla-tasks_test (1) Coverage Results" MODIFIED="1525608290899" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -118,11 +122,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TrelloFacadeTestSuite.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TrelloFacadeTestSuite.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/crud/tasks/facade/TrelloFacadeTestSuite.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="870">
-              <caret line="58" selection-start-line="58" selection-end-line="58" />
+            <state relative-caret-position="449">
+              <caret line="30" selection-start-line="30" selection-end-line="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TrelloFacadeTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/crud/tasks/facade/TrelloFacadeTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="366">
+              <caret line="104" column="1" selection-start-line="104" selection-start-column="1" selection-end-line="104" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -731,6 +747,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/crud/tasks/trello/facade/TrelloFacade.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/crud/tasks/domain/CreatedTrelloCard.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/crud/tasks/facade/TrelloFacadeTestSuite.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/crud/tasks/facade/TrelloFacadeTest.java" />
       </list>
     </option>
   </component>
@@ -789,89 +806,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="marcin-ptaszny-kodilla-tasks" type="b2602c69:ProjectViewProjectNode" />
-              <item name="marcin-ptaszny-kodilla-tasks" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="tasks" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="marcin-ptaszny-kodilla-tasks" type="b2602c69:ProjectViewProjectNode" />
-              <item name="marcin-ptaszny-kodilla-tasks" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="tasks" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="marcin-ptaszny-kodilla-tasks" type="b2602c69:ProjectViewProjectNode" />
-              <item name="marcin-ptaszny-kodilla-tasks" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="tasks" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="marcin-ptaszny-kodilla-tasks" type="b2602c69:ProjectViewProjectNode" />
-              <item name="marcin-ptaszny-kodilla-tasks" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="tasks" type="462c0819:PsiDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="marcin-ptaszny-kodilla-tasks" type="b2602c69:ProjectViewProjectNode" />
-              <item name="marcin-ptaszny-kodilla-tasks" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="tasks" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="marcin-ptaszny-kodilla-tasks" type="b2602c69:ProjectViewProjectNode" />
-              <item name="marcin-ptaszny-kodilla-tasks" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="tasks" type="462c0819:PsiDirectoryNode" />
-              <item name="trello" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="marcin-ptaszny-kodilla-tasks" type="b2602c69:ProjectViewProjectNode" />
-              <item name="marcin-ptaszny-kodilla-tasks" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="tasks" type="462c0819:PsiDirectoryNode" />
-              <item name="trello" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="marcin-ptaszny-kodilla-tasks" type="b2602c69:ProjectViewProjectNode" />
-              <item name="marcin-ptaszny-kodilla-tasks" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="tasks" type="462c0819:PsiDirectoryNode" />
-              <item name="trello" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="marcin-ptaszny-kodilla-tasks" type="b2602c69:ProjectViewProjectNode" />
-              <item name="marcin-ptaszny-kodilla-tasks" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="tasks" type="462c0819:PsiDirectoryNode" />
-              <item name="trello" type="462c0819:PsiDirectoryNode" />
-              <item name="facade" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="marcin-ptaszny-kodilla-tasks" type="b2602c69:ProjectViewProjectNode" />
@@ -997,50 +931,21 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TrelloFacadeTestSuite">
+  <component name="RunManager" selected="JUnit.All in marcin-ptaszny-kodilla-tasks_test (2)">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="SimpleEmailServiceTest.shouldSendEmail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="All in marcin-ptaszny-kodilla-tasks_test (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="marcin-ptaszny-kodilla-tasks_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.crud.tasks.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.crud.tasks.service" />
-      <option name="MAIN_CLASS_NAME" value="com.crud.tasks.service.SimpleEmailServiceTest" />
-      <option name="METHOD_NAME" value="shouldSendEmail" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="TrelloFacadeTestSuite" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="marcin-ptaszny-kodilla-tasks_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.crud.tasks.facade.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.crud.tasks.facade" />
-      <option name="MAIN_CLASS_NAME" value="com.crud.tasks.facade.TrelloFacadeTestSuite" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" />
       <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="package" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -1050,7 +955,41 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="TrelloFacadeTestSuite.shouldCreateCard" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="All in marcin-ptaszny-kodilla-tasks_test (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="marcin-ptaszny-kodilla-tasks_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="All in marcin-ptaszny-kodilla-tasks_test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="marcin-ptaszny-kodilla-tasks_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="TrelloFacadeTest.shouldFetchEmptyList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="marcin-ptaszny-kodilla-tasks_test" />
       <extension name="coverage">
         <pattern>
@@ -1061,30 +1000,7 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.crud.tasks.facade" />
-      <option name="MAIN_CLASS_NAME" value="com.crud.tasks.facade.TrelloFacadeTestSuite" />
-      <option name="METHOD_NAME" value="shouldCreateCard" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="TrelloFacadeTestSuite.shouldFetchEmptyList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="marcin-ptaszny-kodilla-tasks_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.crud.tasks.facade.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.crud.tasks.facade" />
-      <option name="MAIN_CLASS_NAME" value="com.crud.tasks.facade.TrelloFacadeTestSuite" />
+      <option name="MAIN_CLASS_NAME" value="com.crud.tasks.facade.TrelloFacadeTest" />
       <option name="METHOD_NAME" value="shouldFetchEmptyList" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -1096,7 +1012,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="TrelloFacadeTestSuite.shouldFetchTrelloBoards" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TrelloFacadeTest.shouldFetchTrelloBoards" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="marcin-ptaszny-kodilla-tasks_test" />
       <extension name="coverage">
         <pattern>
@@ -1107,7 +1023,7 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.crud.tasks.facade" />
-      <option name="MAIN_CLASS_NAME" value="com.crud.tasks.facade.TrelloFacadeTestSuite" />
+      <option name="MAIN_CLASS_NAME" value="com.crud.tasks.facade.TrelloFacadeTest" />
       <option name="METHOD_NAME" value="shouldFetchTrelloBoards" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -1245,19 +1161,19 @@
     </configuration>
     <list>
       <item itemvalue="Spring Boot.TasksApplication" />
-      <item itemvalue="JUnit.SimpleEmailServiceTest.shouldSendEmail" />
-      <item itemvalue="JUnit.TrelloFacadeTestSuite.shouldFetchEmptyList" />
-      <item itemvalue="JUnit.TrelloFacadeTestSuite.shouldFetchTrelloBoards" />
-      <item itemvalue="JUnit.TrelloFacadeTestSuite.shouldCreateCard" />
-      <item itemvalue="JUnit.TrelloFacadeTestSuite" />
+      <item itemvalue="JUnit.All in marcin-ptaszny-kodilla-tasks_test" />
+      <item itemvalue="JUnit.TrelloFacadeTest.shouldFetchEmptyList" />
+      <item itemvalue="JUnit.All in marcin-ptaszny-kodilla-tasks_test (1)" />
+      <item itemvalue="JUnit.TrelloFacadeTest.shouldFetchTrelloBoards" />
+      <item itemvalue="JUnit.All in marcin-ptaszny-kodilla-tasks_test (2)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TrelloFacadeTestSuite" />
-        <item itemvalue="JUnit.TrelloFacadeTestSuite.shouldFetchTrelloBoards" />
-        <item itemvalue="JUnit.TrelloFacadeTestSuite.shouldCreateCard" />
-        <item itemvalue="JUnit.TrelloFacadeTestSuite.shouldFetchEmptyList" />
-        <item itemvalue="JUnit.SimpleEmailServiceTest.shouldSendEmail" />
+        <item itemvalue="JUnit.All in marcin-ptaszny-kodilla-tasks_test (2)" />
+        <item itemvalue="JUnit.TrelloFacadeTest.shouldFetchTrelloBoards" />
+        <item itemvalue="JUnit.All in marcin-ptaszny-kodilla-tasks_test (1)" />
+        <item itemvalue="JUnit.TrelloFacadeTest.shouldFetchEmptyList" />
+        <item itemvalue="JUnit.All in marcin-ptaszny-kodilla-tasks_test" />
       </list>
     </recent_temporary>
   </component>
@@ -1299,7 +1215,7 @@
       <workItem from="1524743087215" duration="50870000" />
       <workItem from="1525455355059" duration="2463000" />
       <workItem from="1525514360317" duration="2091000" />
-      <workItem from="1525520742130" duration="3849000" />
+      <workItem from="1525520742130" duration="6754000" />
     </task>
     <task id="LOCAL-00001" summary="New version">
       <created>1520507257649</created>
@@ -1375,24 +1291,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TrelloFacadeTestSuite_shouldFetchTrelloBoards - 2018.05.05 at 18h 47m 58s.xml">
-      <configuration name="TrelloFacadeTestSuite.shouldFetchTrelloBoards" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TrelloFacadeTestSuite_shouldFetchTrelloBoards - 2018.05.05 at 18h 49m 54s.xml">
-      <configuration name="TrelloFacadeTestSuite.shouldFetchTrelloBoards" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TrelloFacadeTestSuite_shouldFetchTrelloBoards - 2018.05.05 at 18h 50m 22s.xml">
-      <configuration name="TrelloFacadeTestSuite.shouldFetchTrelloBoards" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TrelloFacadeTestSuite_shouldFetchTrelloBoards - 2018.05.05 at 18h 50m 33s.xml">
-      <configuration name="TrelloFacadeTestSuite.shouldFetchTrelloBoards" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TrelloFacadeTestSuite_shouldFetchTrelloBoards - 2018.05.05 at 18h 50m 51s.xml">
-      <configuration name="TrelloFacadeTestSuite.shouldFetchTrelloBoards" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TrelloFacadeTestSuite_shouldFetchTrelloBoards - 2018.05.05 at 18h 51m 09s.xml">
-      <configuration name="TrelloFacadeTestSuite.shouldFetchTrelloBoards" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TrelloFacadeTestSuite_shouldFetchTrelloBoards - 2018.05.05 at 18h 51m 26s.xml">
       <configuration name="TrelloFacadeTestSuite.shouldFetchTrelloBoards" configurationId="JUnit" />
     </history-entry>
@@ -1405,9 +1303,27 @@
     <history-entry file="TrelloFacadeTestSuite_shouldFetchTrelloBoards - 2018.05.05 at 18h 52m 09s.xml">
       <configuration name="TrelloFacadeTestSuite.shouldFetchTrelloBoards" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TrelloFacadeTestSuite - 2018.05.06 at 08h 38m 49s.xml">
+      <configuration name="TrelloFacadeTestSuite" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_marcin-ptaszny-kodilla-tasks_test - 2018.05.06 at 13h 11m 27s.xml">
+      <configuration name="All in marcin-ptaszny-kodilla-tasks_test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TrelloFacadeTest_shouldFetchEmptyList - 2018.05.06 at 14h 04m 19s.xml">
+      <configuration name="TrelloFacadeTest.shouldFetchEmptyList" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_marcin-ptaszny-kodilla-tasks_test_(1) - 2018.05.06 at 14h 05m 07s.xml">
+      <configuration name="All in marcin-ptaszny-kodilla-tasks_test (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TrelloFacadeTest_shouldFetchTrelloBoards - 2018.05.06 at 14h 14m 51s.xml">
+      <configuration name="TrelloFacadeTest.shouldFetchTrelloBoards" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_marcin-ptaszny-kodilla-tasks_test_(2) - 2018.05.06 at 14h 15m 13s.xml">
+      <configuration name="All in marcin-ptaszny-kodilla-tasks_test (2)" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="124260000" />
+    <option name="totallyTimeSpent" value="127165000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1420,7 +1336,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5007153" side_tool="true" weight="0.34666666" />
@@ -1439,11 +1354,13 @@
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="7" weight="0.32948717" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928468" weight="0.33205128" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928468" visible="true" weight="0.33205128" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32948717" />
+      <window_info anchor="bottom" id="Thumbnails" weight="0.32948717" />
+      <window_info active="true" anchor="right" id="Coverage" side_tool="true" visible="true" weight="0.3297568" />
       <window_info anchor="bottom" id="Spring" order="7" weight="0.32948717" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49928468" visible="true" weight="0.44615385" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.38054362" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49928468" weight="0.44615385" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.38054362" />
       <window_info anchor="right" id="Bean Validation" order="3" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="right" id="Gradle" order="3" />
@@ -1517,13 +1434,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-autoconfigure/2.0.0.RELEASE/c89896a469ecf92996ecba40755919896ace5470/spring-boot-autoconfigure-2.0.0.RELEASE.jar!/org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="40" column="142" selection-start-line="40" selection-start-column="142" selection-end-line="40" selection-end-column="142" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-autoconfigure/2.0.0.RELEASE/a61ac639366cc804c155f86a248f933321a0bb07/spring-boot-autoconfigure-2.0.0.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="146">
@@ -1925,8 +1835,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/crud/tasks/facade/TrelloFacadeTestSuite.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="870">
-          <caret line="58" selection-start-line="58" selection-end-line="58" />
+        <state relative-caret-position="449">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/crud/tasks/facade/TrelloFacadeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="366">
+          <caret line="104" column="1" selection-start-line="104" selection-start-column="1" selection-end-line="104" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
