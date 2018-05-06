@@ -29,7 +29,9 @@
           <element id="library" level="project" name="Gradle: io.springfox:springfox-swagger2:2.8.0" />
           <element id="library" level="project" name="Gradle: io.springfox:springfox-swagger-ui:2.8.0" />
           <element id="library" level="project" name="Gradle: com.google.code.gson:gson:2.8.2" />
+          <element id="library" level="project" name="Gradle: org.springframework.boot:spring-boot-actuator-autoconfigure:2.0.0.RELEASE" />
           <element id="library" level="project" name="Gradle: org.springframework.boot:spring-boot-autoconfigure:2.0.0.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework.boot:spring-boot-actuator:2.0.0.RELEASE" />
           <element id="library" level="project" name="Gradle: org.springframework.boot:spring-boot:2.0.0.RELEASE" />
           <element id="library" level="project" name="Gradle: org.springframework.boot:spring-boot-starter-logging:2.0.0.RELEASE" />
           <element id="library" level="project" name="Gradle: org.springframework.data:spring-data-jpa:2.0.5.RELEASE" />
@@ -69,6 +71,7 @@
           <element id="library" level="project" name="Gradle: org.slf4j:slf4j-api:1.7.25" />
           <element id="library" level="project" name="Gradle: org.mapstruct:mapstruct:1.2.0.Final" />
           <element id="library" level="project" name="Gradle: com.sun.mail:javax.mail:1.6.1" />
+          <element id="library" level="project" name="Gradle: io.micrometer:micrometer-core:1.0.1" />
           <element id="library" level="project" name="Gradle: org.springframework:spring-jcl:5.0.4.RELEASE" />
           <element id="library" level="project" name="Gradle: org.aspectj:aspectjweaver:1.8.13" />
           <element id="library" level="project" name="Gradle: org.hibernate.common:hibernate-commons-annotations:5.0.1.Final" />
@@ -85,10 +88,13 @@
           <element id="library" level="project" name="Gradle: javax.validation:validation-api:2.0.1.Final" />
           <element id="library" level="project" name="Gradle: com.fasterxml.jackson.core:jackson-annotations:2.9.0" />
           <element id="library" level="project" name="Gradle: javax.activation:activation:1.1" />
+          <element id="library" level="project" name="Gradle: org.hdrhistogram:HdrHistogram:2.1.10" />
+          <element id="library" level="project" name="Gradle: org.latencyutils:LatencyUtils:2.0.3" />
           <element id="library" level="project" name="Gradle: ch.qos.logback:logback-core:1.2.3" />
           <element id="library" level="project" name="Gradle: org.apache.logging.log4j:log4j-api:2.10.0" />
           <element id="library" level="project" name="Gradle: com.fasterxml.jackson.core:jackson-core:2.9.4" />
           <element id="library" level="project" name="Gradle: net.bytebuddy:byte-buddy:1.7.10" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-actuator/2.0.1.RELEASE/1ae431903895eabeccbdd611580ce63b374ccd1b/spring-boot-starter-actuator-2.0.1.RELEASE.jar" />
         </element>
       </element>
     </root>
