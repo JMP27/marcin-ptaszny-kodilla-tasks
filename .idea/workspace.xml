@@ -166,8 +166,8 @@
       <file leaf-file-name="TaskControllerTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/crud/tasks/controller/TaskControllerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="118">
-              <caret line="79" column="4" selection-start-line="79" selection-start-column="4" selection-end-line="79" selection-end-column="4" />
+            <state relative-caret-position="1965">
+              <caret line="131" column="45" selection-start-line="131" selection-start-column="45" selection-end-line="131" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -1331,7 +1331,7 @@
       <workItem from="1524743087215" duration="50870000" />
       <workItem from="1525455355059" duration="2463000" />
       <workItem from="1525514360317" duration="2091000" />
-      <workItem from="1525520742130" duration="14351000" />
+      <workItem from="1525520742130" duration="14791000" />
     </task>
     <task id="LOCAL-00001" summary="New version">
       <created>1520507257649</created>
@@ -1407,24 +1407,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TaskControllerTest_shouldGetTaskById - 2018.05.06 at 18h 58m 22s.xml">
-      <configuration name="TaskControllerTest.shouldGetTaskById" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TaskControllerTest_shouldGetTaskById - 2018.05.06 at 18h 58m 48s.xml">
-      <configuration name="TaskControllerTest.shouldGetTaskById" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TaskControllerTest_shouldGetTaskById - 2018.05.06 at 18h 59m 34s.xml">
-      <configuration name="TaskControllerTest.shouldGetTaskById" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TaskControllerTest_shouldGetTaskById - 2018.05.06 at 19h 04m 56s.xml">
-      <configuration name="TaskControllerTest.shouldGetTaskById" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TaskControllerTest_shouldGetTaskById - 2018.05.06 at 19h 05m 23s.xml">
-      <configuration name="TaskControllerTest.shouldGetTaskById" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TaskControllerTest_shouldGetTaskById - 2018.05.06 at 19h 05m 54s.xml">
-      <configuration name="TaskControllerTest.shouldGetTaskById" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TaskControllerTest_shouldGetTaskById - 2018.05.06 at 19h 06m 14s.xml">
       <configuration name="TaskControllerTest.shouldGetTaskById" configurationId="JUnit" />
     </history-entry>
@@ -1437,9 +1419,27 @@
     <history-entry file="TaskControllerTest_shouldGetTask - 2018.05.06 at 19h 08m 27s.xml">
       <configuration name="TaskControllerTest.shouldGetTask" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TaskControllerTest_shouldUpdateTask - 2018.05.06 at 19h 09m 27s.xml">
+      <configuration name="TaskControllerTest.shouldUpdateTask" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TaskControllerTest_shouldUpdateTask - 2018.05.06 at 19h 10m 12s.xml">
+      <configuration name="TaskControllerTest.shouldUpdateTask" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TaskControllerTest_shouldDeleteTask - 2018.05.06 at 19h 11m 39s.xml">
+      <configuration name="TaskControllerTest.shouldDeleteTask" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TaskControllerTest_shouldUpdateTask - 2018.05.06 at 19h 11m 54s.xml">
+      <configuration name="TaskControllerTest.shouldUpdateTask" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TaskControllerTest_shouldCreateTask - 2018.05.06 at 19h 12m 04s.xml">
+      <configuration name="TaskControllerTest.shouldCreateTask" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TaskControllerTest - 2018.05.06 at 19h 12m 16s.xml">
+      <configuration name="TaskControllerTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="134762000" />
+    <option name="totallyTimeSpent" value="135202000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1452,7 +1452,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5007153" side_tool="true" weight="0.34666666" />
@@ -1472,12 +1471,12 @@
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="7" weight="0.32948717" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49928468" visible="true" weight="0.33205128" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928468" weight="0.2897436" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32948717" />
       <window_info anchor="bottom" id="Thumbnails" weight="0.32948717" />
       <window_info anchor="right" id="Coverage" side_tool="true" weight="0.3297568" />
       <window_info anchor="bottom" id="Spring" order="7" weight="0.32948717" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49928468" weight="0.44615385" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49928468" visible="true" weight="0.44615385" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.38054362" />
       <window_info anchor="right" id="Bean Validation" order="3" />
       <window_info id="Web" order="2" side_tool="true" />
@@ -1547,7 +1546,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="30" />
+      <option name="time" value="31" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -1980,8 +1979,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/crud/tasks/controller/TaskControllerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
-          <caret line="79" column="4" selection-start-line="79" selection-start-column="4" selection-end-line="79" selection-end-column="4" />
+        <state relative-caret-position="1965">
+          <caret line="131" column="45" selection-start-line="131" selection-start-column="45" selection-end-line="131" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
