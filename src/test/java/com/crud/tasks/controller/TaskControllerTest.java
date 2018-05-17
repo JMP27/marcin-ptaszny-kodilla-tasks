@@ -87,7 +87,7 @@ public class TaskControllerTest {
         //When & Then
         mockMvc.perform(delete("/v1/task/deleteTask")
                 .contentType(MediaType.APPLICATION_JSON)
-                .param("taskId", "34"))
+                .param("id", "34"))
                 .andExpect(status().is(200));
     }
 
