@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.crud.tasks.facade.TrelloFacadeTestSuite" tests="4" skipped="0" failures="0" errors="0" timestamp="2018-05-06T17:50:50" hostname="MBP-Marcin" time="0.025">
+<testsuite name="com.crud.tasks.facade.TrelloFacadeTestSuite" tests="4" skipped="0" failures="0" errors="0" timestamp="2018-05-18T18:44:45" hostname="MBP-Marcin" time="0.012">
   <properties/>
-  <testcase name="testMapToCardDto" classname="com.crud.tasks.facade.TrelloFacadeTestSuite" time="0.002"/>
-  <testcase name="tstMapToBoard" classname="com.crud.tasks.facade.TrelloFacadeTestSuite" time="0.016"/>
-  <testcase name="testMapToCard" classname="com.crud.tasks.facade.TrelloFacadeTestSuite" time="0.001"/>
-  <testcase name="testMapToBoardDtos" classname="com.crud.tasks.facade.TrelloFacadeTestSuite" time="0.004"/>
+  <testcase name="testMapToCardDto" classname="com.crud.tasks.facade.TrelloFacadeTestSuite" time="0.001"/>
+  <testcase name="tstMapToBoard" classname="com.crud.tasks.facade.TrelloFacadeTestSuite" time="0.01"/>
+  <testcase name="testMapToCard" classname="com.crud.tasks.facade.TrelloFacadeTestSuite" time="0.0"/>
+  <testcase name="testMapToBoardDtos" classname="com.crud.tasks.facade.TrelloFacadeTestSuite" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
