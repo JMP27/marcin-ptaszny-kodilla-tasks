@@ -12,7 +12,7 @@ import static java.util.Optional.ofNullable;
 @Service
 public class TrelloService {
 
-    private static final String SUBJECT = "Tasks: new Trello card";
+    public static final String SUBJECT = "Tasks: new Trello card";
 
     @Autowired
     private AdminConfig adminConfig;
@@ -32,7 +32,7 @@ public class TrelloService {
         ofNullable(newCard).ifPresent(card -> emailService.send(new Mail(
                 adminConfig.getAdminMail(),
                 SUBJECT,
-                "New card " + trelloCardDto.getName() + " has been created on your Trello account")));
+                "New card " +  trelloCardDto.getName() + " has been created on your Trello account")));
 
         return newCard;
     }

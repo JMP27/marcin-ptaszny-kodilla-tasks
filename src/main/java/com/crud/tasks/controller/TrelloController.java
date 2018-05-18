@@ -54,8 +54,12 @@ public class TrelloController {
 //        return trelloService.createNewCard(trelloCardDto);
 //    }
 
+
+
     @Autowired
     private TrelloFacade trelloFacade;
+
+
 
     @RequestMapping(method = RequestMethod.GET, value = "getTrelloBoards")
     public List<TrelloBoardDto> getTrelloBoards() {

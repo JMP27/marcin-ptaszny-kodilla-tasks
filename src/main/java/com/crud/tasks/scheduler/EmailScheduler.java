@@ -10,7 +10,7 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class EmailScheduler {
-    private static final String SUBJECT = "Tasks: once a day";
+    public static final String SUBJECT = "Tasks: once a day";
     static String message;
 
     @Autowired
