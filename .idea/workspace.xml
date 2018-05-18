@@ -4,7 +4,7 @@
     <list default="true" id="fba1d02a-42cf-402c-bbc6-9b5bd01ee3dc" name="Default" comment="">
       <change beforePath="$USER_HOME$/Documents/githubJMP/jmp27.github.io/index.html" beforeDir="false" afterPath="$USER_HOME$/Documents/githubJMP/jmp27.github.io/index.html" afterDir="false" />
       <change beforePath="$USER_HOME$/Documents/githubJMP/jmp27.github.io/script.js" beforeDir="false" afterPath="$USER_HOME$/Documents/githubJMP/jmp27.github.io/script.js" afterDir="false" />
-      <change beforePath="$USER_HOME$/Documents/githubJMP/jmp27.github.io/styles.css" beforeDir="false" afterPath="$USER_HOME$/Documents/githubJMP/jmp27.github.io/styles.css" afterDir="false" />
+      <change beforePath="$USER_HOME$/Documents/githubJMP/jmp27.github.io/styles.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$" beforeDir="false" afterPath="$PROJECT_DIR$" afterDir="false" />
       <change beforePath="$USER_HOME$/Library/Containers/com.apple.iBooksX/Data/Documents/AEAnnotation/AEAnnotation_v10312011_1727_local.sqlite" beforeDir="false" afterPath="$USER_HOME$/Library/Containers/com.apple.iBooksX/Data/Documents/AEAnnotation/AEAnnotation_v10312011_1727_local.sqlite" afterDir="false" />
       <change beforePath="$USER_HOME$/Library/Containers/com.apple.iBooksX/Data/Documents/BKLibrary/BKLibrary-1-091020131601.sqlite-shm" beforeDir="false" afterPath="$USER_HOME$/Library/Containers/com.apple.iBooksX/Data/Documents/BKLibrary/BKLibrary-1-091020131601.sqlite-shm" afterDir="false" />
@@ -260,6 +260,10 @@
       <change beforePath="$APPLICATION_CONFIG_DIR$/options/usage.statistics.xml" beforeDir="false" afterPath="$APPLICATION_CONFIG_DIR$/options/usage.statistics.xml" afterDir="false" />
       <change beforePath="$APPLICATION_CONFIG_DIR$/options/window.manager.xml" beforeDir="false" afterPath="$APPLICATION_CONFIG_DIR$/options/window.manager.xml" afterDir="false" />
       <change beforePath="$APPLICATION_CONFIG_DIR$/options/window.state.xml" beforeDir="false" afterPath="$APPLICATION_CONFIG_DIR$/options/window.state.xml" afterDir="false" />
+      <change beforePath="$USER_HOME$/index.html" beforeDir="false" />
+      <change beforePath="$USER_HOME$/jquery-3.3.1.min.js" beforeDir="false" />
+      <change beforePath="$USER_HOME$/script.js" beforeDir="false" />
+      <change beforePath="$USER_HOME$/styles.css" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -342,8 +346,8 @@
       <file leaf-file-name="TaskController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/crud/tasks/controller/TaskController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="149">
-              <caret line="21" column="62" selection-start-line="21" selection-start-column="62" selection-end-line="21" selection-end-column="62" />
+            <state relative-caret-position="-109">
+              <caret line="19" column="34" lean-forward="true" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#664#665#0" expanded="true" />
@@ -356,7 +360,7 @@
       <file leaf-file-name="TrelloController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/crud/tasks/controller/TrelloController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="341">
+            <state relative-caret-position="281">
               <caret line="71" column="1" selection-start-line="71" selection-start-column="1" selection-end-line="71" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -368,8 +372,8 @@
       <file leaf-file-name="TaskControllerTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/crud/tasks/controller/TaskControllerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="780">
-              <caret line="52" column="37" lean-forward="true" selection-start-line="52" selection-start-column="37" selection-end-line="52" selection-end-column="37" />
+            <state relative-caret-position="-42">
+              <caret line="35" column="28" lean-forward="true" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -933,8 +937,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="773" />
-    <option name="y" value="108" />
+    <option name="x" value="569" />
+    <option name="y" value="114" />
     <option name="width" value="1224" />
     <option name="height" value="877" />
   </component>
@@ -1545,7 +1549,7 @@
       <workItem from="1525802843180" duration="644000" />
       <workItem from="1526586539077" duration="9045000" />
       <workItem from="1526666547014" duration="5342000" />
-      <workItem from="1526675043825" duration="2444000" />
+      <workItem from="1526675043825" duration="2649000" />
     </task>
     <task id="LOCAL-00001" summary="New version">
       <created>1520507257649</created>
@@ -1653,7 +1657,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="157759000" />
+    <option name="totallyTimeSpent" value="157964000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1665,7 +1669,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="773" y="108" width="1224" height="877" extended-state="0" />
+    <frame x="569" y="114" width="1224" height="877" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5007153" side_tool="true" weight="0.34666666" />
@@ -2116,7 +2121,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/crud/tasks/controller/TrelloController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
+        <state relative-caret-position="281">
           <caret line="71" column="1" selection-start-line="71" selection-start-column="1" selection-end-line="71" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -2126,8 +2131,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/crud/tasks/controller/TaskController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="21" column="62" selection-start-line="21" selection-start-column="62" selection-end-line="21" selection-end-column="62" />
+        <state relative-caret-position="-109">
+          <caret line="19" column="34" lean-forward="true" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#664#665#0" expanded="true" />
@@ -2138,8 +2143,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/crud/tasks/controller/TaskControllerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="780">
-          <caret line="52" column="37" lean-forward="true" selection-start-line="52" selection-start-column="37" selection-end-line="52" selection-end-column="37" />
+        <state relative-caret-position="-42">
+          <caret line="35" column="28" lean-forward="true" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
