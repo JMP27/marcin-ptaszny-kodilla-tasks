@@ -343,11 +343,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TaskController.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TaskController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/crud/tasks/controller/TaskController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="185">
-              <caret line="31" column="65" lean-forward="true" selection-start-line="31" selection-start-column="65" selection-end-line="31" selection-end-column="65" />
+            <state relative-caret-position="72">
+              <caret line="21" column="63" selection-start-line="21" selection-start-column="63" selection-end-line="21" selection-end-column="63" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#664#665#0" expanded="true" />
@@ -369,11 +369,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TaskControllerTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="TaskControllerTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/crud/tasks/controller/TaskControllerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="99">
-              <caret line="72" column="29" selection-start-line="72" selection-start-column="29" selection-end-line="72" selection-end-column="29" />
+            <state relative-caret-position="458">
+              <caret line="52" column="38" selection-start-line="52" selection-start-column="38" selection-end-line="52" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -1548,7 +1548,7 @@
       <workItem from="1525802843180" duration="644000" />
       <workItem from="1526586539077" duration="9045000" />
       <workItem from="1526666547014" duration="5342000" />
-      <workItem from="1526675043825" duration="4120000" />
+      <workItem from="1526675043825" duration="4795000" />
     </task>
     <task id="LOCAL-00001" summary="New version">
       <created>1520507257649</created>
@@ -1624,12 +1624,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TaskControllerTest_shouldGetTasks - 2018.05.19 at 00h 07m 43s.xml">
-      <configuration name="TaskControllerTest.shouldGetTasks" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TaskControllerTest_shouldGetTasks - 2018.05.19 at 00h 15m 26s.xml">
-      <configuration name="TaskControllerTest.shouldGetTasks" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TaskControllerTest_shouldGetTaskById - 2018.05.19 at 00h 16m 25s.xml">
       <configuration name="TaskControllerTest.shouldGetTaskById" configurationId="JUnit" />
     </history-entry>
@@ -1654,9 +1648,15 @@
     <history-entry file="TaskControllerTest - 2018.05.19 at 00h 21m 47s.xml">
       <configuration name="TaskControllerTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TaskControllerTest_shouldGetTaskById - 2018.05.19 at 00h 34m 24s.xml">
+      <configuration name="TaskControllerTest.shouldGetTaskById" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TaskControllerTest - 2018.05.19 at 00h 34m 26s.xml">
+      <configuration name="TaskControllerTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="159435000" />
+    <option name="totallyTimeSpent" value="160110000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1669,7 +1669,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="1057" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5007153" side_tool="true" weight="0.34666666" />
@@ -1692,8 +1691,8 @@
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928468" weight="0.23541667" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32948717" />
       <window_info anchor="bottom" id="Spring" order="7" weight="0.32948717" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49928468" visible="true" weight="0.44583333" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19808307" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49928468" visible="true" weight="0.44583333" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19808307" />
       <window_info anchor="right" id="Bean Validation" order="3" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="right" id="Gradle" order="3" />
@@ -2128,24 +2127,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/crud/tasks/controller/TaskControllerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="72" column="29" selection-start-line="72" selection-start-column="29" selection-end-line="72" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/crud/tasks/controller/TaskController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="31" column="65" lean-forward="true" selection-start-line="31" selection-start-column="65" selection-end-line="31" selection-end-column="65" />
+        <state relative-caret-position="72">
+          <caret line="21" column="63" selection-start-line="21" selection-start-column="63" selection-end-line="21" selection-end-column="63" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#664#665#0" expanded="true" />
             <element signature="e#737#738#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/crud/tasks/controller/TaskControllerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="458">
+          <caret line="52" column="38" selection-start-line="52" selection-start-column="38" selection-end-line="52" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
