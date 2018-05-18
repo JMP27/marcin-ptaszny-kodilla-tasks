@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.crud.tasks.service.SimpleEmailServiceTest" tests="1" skipped="0" failures="1" errors="0" timestamp="2018-05-18T18:44:55" hostname="MBP-Marcin" time="0.034">
+<testsuite name="com.crud.tasks.service.SimpleEmailServiceTest" tests="1" skipped="0" failures="1" errors="0" timestamp="2018-05-18T20:26:59" hostname="MBP-Marcin" time="0.05">
   <properties/>
-  <testcase name="shouldSendEmail" classname="com.crud.tasks.service.SimpleEmailServiceTest" time="0.034">
-    <failure message="Argument(s) are different! Wanted:&#10;javaMailSender.send(&#10;    SimpleMailMessage: from=null; replyTo=null; to=test@test.com; cc=; bcc=; sentDate=null; subject=Test; text=Test Message&#10;);&#10;-&gt; at com.crud.tasks.service.SimpleEmailServiceTest.shouldSendEmail(SimpleEmailServiceTest.java:37)&#10;Actual invocation has different arguments:&#10;javaMailSender.send(&#10;    com.crud.tasks.service.SimpleEmailService$$Lambda$749/1271149862@163b5bbf&#10;);&#10;-&gt; at com.crud.tasks.service.SimpleEmailService.send(SimpleEmailService.java:31)&#10;" type="org.mockito.exceptions.verification.junit.ArgumentsAreDifferent">Argument(s) are different! Wanted:
+  <testcase name="shouldSendEmail" classname="com.crud.tasks.service.SimpleEmailServiceTest" time="0.05">
+    <failure message="Argument(s) are different! Wanted:&#10;javaMailSender.send(&#10;    SimpleMailMessage: from=null; replyTo=null; to=test@test.com; cc=; bcc=; sentDate=null; subject=Test; text=Test Message&#10;);&#10;-&gt; at com.crud.tasks.service.SimpleEmailServiceTest.shouldSendEmail(SimpleEmailServiceTest.java:37)&#10;Actual invocation has different arguments:&#10;javaMailSender.send(&#10;    com.crud.tasks.service.SimpleEmailService$$Lambda$3/425366758@73d23938&#10;);&#10;-&gt; at com.crud.tasks.service.SimpleEmailService.send(SimpleEmailService.java:31)&#10;" type="org.mockito.exceptions.verification.junit.ArgumentsAreDifferent">Argument(s) are different! Wanted:
 javaMailSender.send(
     SimpleMailMessage: from=null; replyTo=null; to=test@test.com; cc=; bcc=; sentDate=null; subject=Test; text=Test Message
 );
 -&gt; at com.crud.tasks.service.SimpleEmailServiceTest.shouldSendEmail(SimpleEmailServiceTest.java:37)
 Actual invocation has different arguments:
 javaMailSender.send(
-    com.crud.tasks.service.SimpleEmailService$$Lambda$749/1271149862@163b5bbf
+    com.crud.tasks.service.SimpleEmailService$$Lambda$3/425366758@73d23938
 );
 -&gt; at com.crud.tasks.service.SimpleEmailService.send(SimpleEmailService.java:31)
 
@@ -67,8 +67,8 @@ javaMailSender.send(
 	at java.lang.Thread.run(Thread.java:748)
 </failure>
   </testcase>
-  <system-out><![CDATA[2018-05-18 20:44:55.767  INFO 1032 --- [    Test worker] o.s.mail.SimpleMailMessage               : Starting email preparation..
-2018-05-18 20:44:55.769  INFO 1032 --- [    Test worker] o.s.mail.SimpleMailMessage               : Email has been sent.
+  <system-out><![CDATA[22:26:59.088 [Test worker] INFO org.springframework.mail.SimpleMailMessage - Starting email preparation..
+22:26:59.103 [Test worker] INFO org.springframework.mail.SimpleMailMessage - Email has been sent.
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
