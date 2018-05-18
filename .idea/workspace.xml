@@ -342,10 +342,9 @@
       <file leaf-file-name="TaskController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/crud/tasks/controller/TaskController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="453">
-              <caret line="42" column="74" selection-start-line="42" selection-start-column="74" selection-end-line="42" selection-end-column="74" />
+            <state relative-caret-position="75">
+              <caret line="5" column="62" lean-forward="true" selection-start-line="5" selection-start-column="62" selection-end-line="5" selection-end-column="62" />
               <folding>
-                <element signature="imports" expanded="true" />
                 <element signature="e#672#673#0" expanded="true" />
                 <element signature="e#745#746#0" expanded="true" />
               </folding>
@@ -954,13 +953,13 @@
         <option value="$PROJECT_DIR$/src/main/java/com/crud/tasks/service/SimpleEmailService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/crud/tasks/service/TrelloService.java" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/mail/created-trello-card-mail.html" />
-        <option value="$PROJECT_DIR$/src/main/java/com/crud/tasks/controller/TaskController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/crud/tasks/controller/TrelloController.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/crud/tasks/controller/TrelloControllerTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/crud/tasks/controller/TaskControllerTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/crud/tasks/scheduler/EmailScheduler.java" />
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/crud/tasks/controller/TaskController.java" />
       </list>
     </option>
   </component>
@@ -971,8 +970,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="907" />
-    <option name="y" value="75" />
+    <option name="x" value="674" />
+    <option name="y" value="54" />
     <option name="width" value="1224" />
     <option name="height" value="877" />
   </component>
@@ -1591,7 +1590,7 @@
       <workItem from="1525520742130" duration="19873000" />
       <workItem from="1525802843180" duration="644000" />
       <workItem from="1526586539077" duration="9045000" />
-      <workItem from="1526666547014" duration="4827000" />
+      <workItem from="1526666547014" duration="5119000" />
     </task>
     <task id="LOCAL-00001" summary="New version">
       <created>1520507257649</created>
@@ -1699,7 +1698,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="154800000" />
+    <option name="totallyTimeSpent" value="155092000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1711,7 +1710,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="907" y="75" width="1224" height="877" extended-state="0" />
+    <frame x="674" y="54" width="1224" height="877" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -1733,9 +1732,9 @@
       <window_info anchor="bottom" id="Java Enterprise" order="7" weight="0.32948717" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32948717" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928468" weight="0.2897436" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49928468" visible="true" weight="0.2897436" />
       <window_info anchor="bottom" id="Spring" order="7" weight="0.32948717" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49928468" visible="true" weight="0.44615385" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49928468" weight="0.44615385" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3147208" />
       <window_info anchor="right" id="Bean Validation" order="3" />
       <window_info id="Web" order="2" side_tool="true" />
@@ -2223,10 +2222,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/crud/tasks/controller/TaskController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="453">
-          <caret line="42" column="74" selection-start-line="42" selection-start-column="74" selection-end-line="42" selection-end-column="74" />
+        <state relative-caret-position="75">
+          <caret line="5" column="62" lean-forward="true" selection-start-line="5" selection-start-column="62" selection-end-line="5" selection-end-column="62" />
           <folding>
-            <element signature="imports" expanded="true" />
             <element signature="e#672#673#0" expanded="true" />
             <element signature="e#745#746#0" expanded="true" />
           </folding>
