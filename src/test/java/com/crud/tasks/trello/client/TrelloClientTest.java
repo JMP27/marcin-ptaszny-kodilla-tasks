@@ -18,7 +18,8 @@ import java.util.List;
 import static org.junit.Assert.*;
 import static org.mockito.Mockito.when;
 
-@RunWith(MockitoJUnitRunner.class)
+//@RunWith(MockitoJUnitRunner.class)
+@RunWith(MockitoJUnitRunner.Silent.class)
 public class TrelloClientTest {
 
     @InjectMocks
@@ -69,20 +70,17 @@ public class TrelloClientTest {
                 "Test task",
                 "Test Description",
                 "top",
-                "test_id"
-
-        );
+                "test_id");
 
         URI uri = new URI("http://test.com/card?key=test&token=test&name=Test%20task&desc=Test%20Description&pos=top&idList=test_id");
 
         CreatedTrelloCardDto createdTrelloCardDto = new CreatedTrelloCardDto(
                 "1",
                 "Test task",
-                "http://test.com"
+                "http://test.com",
+                trelloBadgesDto);
 
-        );
-
-        when(restTemplate.postForObject(uri, null, CreatedTrelloCardDto.class)).thenReturn(createdTrelloCardDto);
+        when(restTemplate.postForObject(uri,null ,CreatedTrelloCardDto.class)).thenReturn(createdTrelloCardDto);
 
         //When
         CreatedTrelloCardDto newCard  = trelloClient.createNewCard(trelloCardDto);
@@ -91,6 +89,7 @@ public class TrelloClientTest {
         assertEquals("1", newCard.getId());
         assertEquals("Test task", newCard.getName());
         assertEquals("http://test.com", newCard.getShortUrl());
+        assertEquals(null,trelloBadgesDto.getAttachmentsByType());
     }
 
     @Test

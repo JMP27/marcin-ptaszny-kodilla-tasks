@@ -83,7 +83,7 @@ public class TrelloControllerTest {
                 "1");
         CreatedTrelloCardDto createdTrelloCardDto = new CreatedTrelloCardDto("323",
                 "Test",
-                "http://test.com");
+                "http://test.com", null);
 
         when(trelloFacade.createCard(ArgumentMatchers.any(TrelloCardDto.class))).thenReturn(createdTrelloCardDto);
 
