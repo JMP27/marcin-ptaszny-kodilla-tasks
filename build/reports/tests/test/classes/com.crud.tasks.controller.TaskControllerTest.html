@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">0.042s</div>
+<div class="counter">0.040s</div>
 <p>duration</p>
 </div>
 </td>
@@ -79,27 +79,27 @@
 </thead>
 <tr>
 <td class="success">shouldCreateTask</td>
-<td class="success">0.006s</td>
+<td class="success">0.005s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">shouldDeleteTask</td>
-<td class="success">0.006s</td>
+<td class="success">0.007s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">shouldGetTaskById</td>
-<td class="success">0.007s</td>
+<td class="success">0.006s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">shouldGetTasks</td>
-<td class="success">0.007s</td>
+<td class="success">0.008s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">shouldUpdateTask</td>
-<td class="success">0.016s</td>
+<td class="success">0.014s</td>
 <td class="success">passed</td>
 </tr>
 </table>
@@ -107,12 +107,12 @@
 <div id="tab1" class="tab">
 <h2>Standard output</h2>
 <span class="code">
-<pre>2018-05-19 10:20:44.584  INFO 3303 --- [    Test worker] .b.t.a.w.s.WebMvcTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.crud.tasks.controller.TaskControllerTest], using SpringBootContextLoader
-2018-05-19 10:20:44.585  INFO 3303 --- [    Test worker] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.crud.tasks.controller.TaskControllerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
-2018-05-19 10:20:44.585  INFO 3303 --- [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.crud.tasks.controller.TaskControllerTest]: TaskControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-2018-05-19 10:20:44.589  INFO 3303 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.crud.tasks.TasksApplication for test class com.crud.tasks.controller.TaskControllerTest
-2018-05-19 10:20:44.590  INFO 3303 --- [    Test worker] .b.t.a.w.s.WebMvcTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
-2018-05-19 10:20:44.590  INFO 3303 --- [    Test worker] .b.t.a.w.s.WebMvcTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@6efb3322, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@195ece03, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@7e5a87f, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@4740c656, org.springframework.test.context.support.DirtiesContextTestExecutionListener@70959fbf, org.springframework.test.context.transaction.TransactionalTestExecutionListener@1f546978, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@35588cbd, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@74eb8e36, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@285f9f73, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@147c2ca9, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@65b077ff, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@4d82cf41]
+<pre>2018-05-19 10:23:58.453  INFO 3354 --- [    Test worker] .b.t.a.w.s.WebMvcTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.crud.tasks.controller.TaskControllerTest], using SpringBootContextLoader
+2018-05-19 10:23:58.454  INFO 3354 --- [    Test worker] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.crud.tasks.controller.TaskControllerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2018-05-19 10:23:58.455  INFO 3354 --- [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.crud.tasks.controller.TaskControllerTest]: TaskControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2018-05-19 10:23:58.458  INFO 3354 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.crud.tasks.TasksApplication for test class com.crud.tasks.controller.TaskControllerTest
+2018-05-19 10:23:58.459  INFO 3354 --- [    Test worker] .b.t.a.w.s.WebMvcTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2018-05-19 10:23:58.459  INFO 3354 --- [    Test worker] .b.t.a.w.s.WebMvcTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@76b91f08, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@2e1045c1, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@557884ed, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@6acbb584, org.springframework.test.context.support.DirtiesContextTestExecutionListener@54b4a68a, org.springframework.test.context.transaction.TransactionalTestExecutionListener@78a6df90, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@69e86385, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@5eb89ca9, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@2fc9e102, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@61ddf134, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@4b0352c1, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@51c4c2dc]
 
   .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
@@ -122,37 +122,37 @@
  =========|_|==============|___/=/_/_/_/
  :: Spring Boot ::        (v2.0.0.RELEASE)
 
-2018-05-19 10:20:44.616  INFO 3303 --- [    Test worker] c.c.tasks.controller.TaskControllerTest  : Starting TaskControllerTest on MBP-Marcin with PID 3303 (started by marcinptaszny in /Users/marcinptaszny/IdeaProjects/marcin-ptaszny-kodilla-tasks)
-2018-05-19 10:20:44.617  INFO 3303 --- [    Test worker] c.c.tasks.controller.TaskControllerTest  : No active profile set, falling back to default profiles: default
-2018-05-19 10:20:44.620  INFO 3303 --- [    Test worker] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@361356ca: startup date [Sat May 19 10:20:44 CEST 2018]; root of context hierarchy
-2018-05-19 10:20:45.132  INFO 3303 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/v1/tasks/{taskId}],methods=[GET]}&quot; onto public com.crud.tasks.domain.TaskDto com.crud.tasks.controller.TaskController.getTask(java.lang.Long) throws com.crud.tasks.controller.TaskNotFoundException
-2018-05-19 10:20:45.133  INFO 3303 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/v1/tasks/{taskId}],methods=[DELETE]}&quot; onto public void com.crud.tasks.controller.TaskController.deleteTask(java.lang.Long)
-2018-05-19 10:20:45.133  INFO 3303 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/v1/tasks],methods=[GET]}&quot; onto public java.util.List&lt;com.crud.tasks.domain.TaskDto&gt; com.crud.tasks.controller.TaskController.getTasks()
-2018-05-19 10:20:45.134  INFO 3303 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/v1/tasks],methods=[PUT]}&quot; onto public com.crud.tasks.domain.TaskDto com.crud.tasks.controller.TaskController.updateTask(com.crud.tasks.domain.TaskDto)
-2018-05-19 10:20:45.134  INFO 3303 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/v1/tasks],methods=[POST],consumes=[application/json]}&quot; onto public void com.crud.tasks.controller.TaskController.createTask(com.crud.tasks.domain.TaskDto)
-2018-05-19 10:20:45.138  INFO 3303 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/swagger-resources]}&quot; onto public org.springframework.http.ResponseEntity&lt;java.util.List&lt;springfox.documentation.swagger.web.SwaggerResource&gt;&gt; springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
-2018-05-19 10:20:45.138  INFO 3303 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/swagger-resources/configuration/security]}&quot; onto public org.springframework.http.ResponseEntity&lt;springfox.documentation.swagger.web.SecurityConfiguration&gt; springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
-2018-05-19 10:20:45.139  INFO 3303 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/swagger-resources/configuration/ui]}&quot; onto public org.springframework.http.ResponseEntity&lt;springfox.documentation.swagger.web.UiConfiguration&gt; springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
-2018-05-19 10:20:45.142  INFO 3303 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/error]}&quot; onto public org.springframework.http.ResponseEntity&lt;java.util.Map&lt;java.lang.String, java.lang.Object&gt;&gt; org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
-2018-05-19 10:20:45.143  INFO 3303 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/error],produces=[text/html]}&quot; onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
-2018-05-19 10:20:45.221  INFO 3303 --- [    Test worker] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity&lt;springfox.documentation.spring.web.json.Json&gt; springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
-2018-05-19 10:20:45.332  INFO 3303 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@361356ca: startup date [Sat May 19 10:20:44 CEST 2018]; root of context hierarchy
-2018-05-19 10:20:45.357  INFO 3303 --- [    Test worker] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/lib/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
-2018-05-19 10:20:45.358  INFO 3303 --- [    Test worker] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/images/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
-2018-05-19 10:20:45.358  INFO 3303 --- [    Test worker] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/css/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
-2018-05-19 10:20:45.358  INFO 3303 --- [    Test worker] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/swagger-ui.html] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
-2018-05-19 10:20:45.358  INFO 3303 --- [    Test worker] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
-2018-05-19 10:20:45.360  INFO 3303 --- [    Test worker] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
-2018-05-19 10:20:45.386  INFO 3303 --- [    Test worker] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
-2018-05-19 10:20:45.430  INFO 3303 --- [    Test worker] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2018-05-19 10:20:45.486  INFO 3303 --- [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring FrameworkServlet ''
-2018-05-19 10:20:45.486  INFO 3303 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : FrameworkServlet '': initialization started
-2018-05-19 10:20:45.494  INFO 3303 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : FrameworkServlet '': initialization completed in 8 ms
-2018-05-19 10:20:45.570  INFO 3303 --- [    Test worker] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 2147483647
-2018-05-19 10:20:45.571  INFO 3303 --- [    Test worker] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
-2018-05-19 10:20:45.572  INFO 3303 --- [    Test worker] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
-2018-05-19 10:20:45.582  INFO 3303 --- [    Test worker] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
-2018-05-19 10:20:45.668  INFO 3303 --- [    Test worker] c.c.tasks.controller.TaskControllerTest  : Started TaskControllerTest in 1.075 seconds (JVM running for 5.74)
+2018-05-19 10:23:58.488  INFO 3354 --- [    Test worker] c.c.tasks.controller.TaskControllerTest  : Starting TaskControllerTest on MBP-Marcin with PID 3354 (started by marcinptaszny in /Users/marcinptaszny/IdeaProjects/marcin-ptaszny-kodilla-tasks)
+2018-05-19 10:23:58.489  INFO 3354 --- [    Test worker] c.c.tasks.controller.TaskControllerTest  : No active profile set, falling back to default profiles: default
+2018-05-19 10:23:58.492  INFO 3354 --- [    Test worker] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@56e90b00: startup date [Sat May 19 10:23:58 CEST 2018]; root of context hierarchy
+2018-05-19 10:23:58.981  INFO 3354 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/v1/tasks/{taskId}],methods=[GET]}&quot; onto public com.crud.tasks.domain.TaskDto com.crud.tasks.controller.TaskController.getTask(java.lang.Long) throws com.crud.tasks.controller.TaskNotFoundException
+2018-05-19 10:23:58.981  INFO 3354 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/v1/tasks/{taskId}],methods=[DELETE]}&quot; onto public void com.crud.tasks.controller.TaskController.deleteTask(java.lang.Long)
+2018-05-19 10:23:58.982  INFO 3354 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/v1/tasks],methods=[GET]}&quot; onto public java.util.List&lt;com.crud.tasks.domain.TaskDto&gt; com.crud.tasks.controller.TaskController.getTasks()
+2018-05-19 10:23:58.982  INFO 3354 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/v1/tasks],methods=[PUT]}&quot; onto public com.crud.tasks.domain.TaskDto com.crud.tasks.controller.TaskController.updateTask(com.crud.tasks.domain.TaskDto)
+2018-05-19 10:23:58.983  INFO 3354 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/v1/tasks],methods=[POST],consumes=[application/json]}&quot; onto public void com.crud.tasks.controller.TaskController.createTask(com.crud.tasks.domain.TaskDto)
+2018-05-19 10:23:58.987  INFO 3354 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/swagger-resources]}&quot; onto public org.springframework.http.ResponseEntity&lt;java.util.List&lt;springfox.documentation.swagger.web.SwaggerResource&gt;&gt; springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2018-05-19 10:23:58.988  INFO 3354 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/swagger-resources/configuration/security]}&quot; onto public org.springframework.http.ResponseEntity&lt;springfox.documentation.swagger.web.SecurityConfiguration&gt; springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2018-05-19 10:23:58.988  INFO 3354 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/swagger-resources/configuration/ui]}&quot; onto public org.springframework.http.ResponseEntity&lt;springfox.documentation.swagger.web.UiConfiguration&gt; springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2018-05-19 10:23:58.992  INFO 3354 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/error]}&quot; onto public org.springframework.http.ResponseEntity&lt;java.util.Map&lt;java.lang.String, java.lang.Object&gt;&gt; org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-05-19 10:23:58.992  INFO 3354 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/error],produces=[text/html]}&quot; onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-05-19 10:23:59.065  INFO 3354 --- [    Test worker] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity&lt;springfox.documentation.spring.web.json.Json&gt; springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2018-05-19 10:23:59.181  INFO 3354 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@56e90b00: startup date [Sat May 19 10:23:58 CEST 2018]; root of context hierarchy
+2018-05-19 10:23:59.208  INFO 3354 --- [    Test worker] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/lib/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-05-19 10:23:59.208  INFO 3354 --- [    Test worker] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/images/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-05-19 10:23:59.208  INFO 3354 --- [    Test worker] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/css/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-05-19 10:23:59.209  INFO 3354 --- [    Test worker] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/swagger-ui.html] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-05-19 10:23:59.209  INFO 3354 --- [    Test worker] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-05-19 10:23:59.209  INFO 3354 --- [    Test worker] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-05-19 10:23:59.237  INFO 3354 --- [    Test worker] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-05-19 10:23:59.281  INFO 3354 --- [    Test worker] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2018-05-19 10:23:59.335  INFO 3354 --- [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring FrameworkServlet ''
+2018-05-19 10:23:59.335  INFO 3354 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : FrameworkServlet '': initialization started
+2018-05-19 10:23:59.344  INFO 3354 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : FrameworkServlet '': initialization completed in 9 ms
+2018-05-19 10:23:59.444  INFO 3354 --- [    Test worker] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 2147483647
+2018-05-19 10:23:59.444  INFO 3354 --- [    Test worker] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2018-05-19 10:23:59.445  INFO 3354 --- [    Test worker] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2018-05-19 10:23:59.455  INFO 3354 --- [    Test worker] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2018-05-19 10:23:59.545  INFO 3354 --- [    Test worker] c.c.tasks.controller.TaskControllerTest  : Started TaskControllerTest in 1.083 seconds (JVM running for 6.026)
 </pre>
 </span>
 </div>
@@ -164,7 +164,7 @@
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 4.7-rc-1</a> at 2018-05-19 10:20:50</p>
+<a href="http://www.gradle.org">Gradle 4.7-rc-1</a> at 2018-05-19 10:24:00</p>
 </div>
 </div>
 </body>

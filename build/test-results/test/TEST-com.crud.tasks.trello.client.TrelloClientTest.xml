@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.crud.tasks.trello.client.TrelloClientTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2018-05-19T08:20:50" hostname="MBP-Marcin" time="0.013">
+<testsuite name="com.crud.tasks.trello.client.TrelloClientTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2018-05-19T08:24:00" hostname="MBP-Marcin" time="0.005">
   <properties/>
-  <testcase name="shouldReturnEmptyList" classname="com.crud.tasks.trello.client.TrelloClientTest" time="0.004"/>
-  <testcase name="shouldFetchTrelloBoards" classname="com.crud.tasks.trello.client.TrelloClientTest" time="0.002"/>
+  <testcase name="shouldReturnEmptyList" classname="com.crud.tasks.trello.client.TrelloClientTest" time="0.002"/>
+  <testcase name="shouldFetchTrelloBoards" classname="com.crud.tasks.trello.client.TrelloClientTest" time="0.0"/>
   <testcase name="shouldCreateCard" classname="com.crud.tasks.trello.client.TrelloClientTest" time="0.001"/>
-  <system-out><![CDATA[2018-05-19 10:20:50.453  INFO 3303 --- [pool-4-thread-1] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
-2018-05-19 10:20:50.633  INFO 3303 --- [pool-4-thread-1] o.s.mail.SimpleMailMessage               : Starting email preparation..
-]]></system-out>
+  <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
