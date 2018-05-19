@@ -27,7 +27,6 @@
           <element id="library" level="project" name="Gradle: org.springframework.boot:spring-boot-starter-json:2.0.0.RELEASE" />
           <element id="library" level="project" name="Gradle: org.springframework.boot:spring-boot-starter:2.0.0.RELEASE" />
           <element id="library" level="project" name="Gradle: org.projectlombok:lombok:1.16.20" />
-          <element id="library" level="project" name="Gradle: mysql:mysql-connector-java:8.0.9-rc" />
           <element id="library" level="project" name="Gradle: io.springfox:springfox-swagger2:2.8.0" />
           <element id="library" level="project" name="Gradle: io.springfox:springfox-swagger-ui:2.8.0" />
           <element id="library" level="project" name="Gradle: com.google.code.gson:gson:2.8.2" />
@@ -101,6 +100,7 @@
           <element id="library" level="project" name="Gradle: net.bytebuddy:byte-buddy:1.7.10" />
           <element id="library" level="project" name="Gradle: org.attoparser:attoparser:2.0.4.RELEASE" />
           <element id="library" level="project" name="Gradle: org.unbescape:unbescape:1.1.5.RELEASE" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/mysql/mysql-connector-java/8.0.9-rc/8367d12f856cabe318fd2973b7854079ee54bfd1/mysql-connector-java-8.0.9-rc.jar" />
         </element>
       </element>
     </root>
