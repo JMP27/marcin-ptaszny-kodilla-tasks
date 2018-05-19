@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.crud.tasks.facade.TrelloFacadeTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2018-05-18T20:26:59" hostname="MBP-Marcin" time="0.015">
+<testsuite name="com.crud.tasks.facade.TrelloFacadeTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2018-05-19T06:41:39" hostname="MBP-Marcin" time="0.008">
   <properties/>
-  <testcase name="shouldFetchTrelloBoards" classname="com.crud.tasks.facade.TrelloFacadeTest" time="0.013"/>
+  <testcase name="shouldFetchTrelloBoards" classname="com.crud.tasks.facade.TrelloFacadeTest" time="0.006"/>
   <testcase name="shouldFetchEmptyList" classname="com.crud.tasks.facade.TrelloFacadeTest" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>

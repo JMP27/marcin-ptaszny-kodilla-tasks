@@ -30,6 +30,9 @@ public class TrelloClientTest {
     @Mock
     private TrelloConfig trelloConfig;
 
+    @Mock
+    private TrelloBadgesDto trelloBadgesDto;
+
 
     @Before
     public void init() {
@@ -67,17 +70,19 @@ public class TrelloClientTest {
                 "Test Description",
                 "top",
                 "test_id"
+
         );
 
         URI uri = new URI("http://test.com/card?key=test&token=test&name=Test%20task&desc=Test%20Description&pos=top&idList=test_id");
 
-        CreatedTrelloCardDto createdTrelloCard = new CreatedTrelloCardDto(
+        CreatedTrelloCardDto createdTrelloCardDto = new CreatedTrelloCardDto(
                 "1",
                 "Test task",
                 "http://test.com"
+
         );
 
-        when(restTemplate.postForObject(uri, null, CreatedTrelloCardDto.class)).thenReturn(createdTrelloCard);
+        when(restTemplate.postForObject(uri, null, CreatedTrelloCardDto.class)).thenReturn(createdTrelloCardDto);
 
         //When
         CreatedTrelloCardDto newCard  = trelloClient.createNewCard(trelloCardDto);
