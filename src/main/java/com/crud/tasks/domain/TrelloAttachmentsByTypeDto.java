@@ -10,6 +10,9 @@ import lombok.Getter;
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class TrelloAttachmentsByTypeDto {
 
+    public TrelloAttachmentsByTypeDto() {
+    }
+
     @JsonProperty("trello")
     private TrelloDto trelloDto;
 }

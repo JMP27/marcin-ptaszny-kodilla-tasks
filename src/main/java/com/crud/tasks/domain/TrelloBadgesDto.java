@@ -10,6 +10,8 @@ import lombok.Getter;
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class TrelloBadgesDto {
 
+    public TrelloBadgesDto(){};
+
     @JsonProperty("votes")
     private int votes;
 

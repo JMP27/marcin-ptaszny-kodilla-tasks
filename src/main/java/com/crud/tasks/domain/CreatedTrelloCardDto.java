@@ -8,6 +8,8 @@ import lombok.Getter;
 @Getter
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class CreatedTrelloCardDto {
+    public CreatedTrelloCardDto(){};
+
     @JsonProperty("id")
     private String id;
 

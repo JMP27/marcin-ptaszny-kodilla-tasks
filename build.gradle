@@ -15,7 +15,7 @@ apply plugin: 'eclipse'
 apply plugin: 'org.springframework.boot'
 apply plugin: 'io.spring.dependency-management'
 //Jak wrzucam na heroku
-apply plugin: 'war'
+//apply plugin: 'war'
 
 group = 'com.crud'
 version = '0.0.1-SNAPSHOT'
@@ -33,13 +33,13 @@ dependencies {
     compile "org.projectlombok:lombok:1.16.20"
     // https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-web
 	compile ('org.springframework.boot:spring-boot-starter-web:2.0.0.RELEASE')
-	compile ('mysql:mysql-connector-java')
+	//compile ('mysql:mysql-connector-java')
     // https://mvnrepository.com/artifact/mysql/mysql-connector-java
-    compile group: 'mysql', name: 'mysql-connector-java', version: '8.0.9-rc'
-	providedRuntime("org.springframework.boot:spring-boot-starter-tomcat")
+    //compile group: 'mysql', name: 'mysql-connector-java', version: '8.0.9-rc'
+	//providedRuntime("org.springframework.boot:spring-boot-starter-tomcat")
 
 	//W czasie wrzucania na heroku
-	//compile('org.postgresql:postgresql')
+	compile('org.postgresql:postgresql')
 
 
     // https://mvnrepository.com/artifact/io.springfox/springfox-swagger2

@@ -9,6 +9,8 @@ import lombok.Getter;
 @Getter
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class TrelloDto {
+    public TrelloDto() {
+    }
 
     @JsonProperty("board")
     private int board;
