@@ -86,9 +86,9 @@ public class TrelloClientTest {
         CreatedTrelloCardDto newCard  = trelloClient.createNewCard(trelloCardDto);
 
         //Then
-        assertEquals("1", newCard.getId());
-        assertEquals("Test task", newCard.getName());
-        assertEquals("http://test.com", newCard.getShortUrl());
+        assertEquals("1", createdTrelloCardDto.getId());
+        assertEquals("Test task", createdTrelloCardDto.getName());
+        assertEquals("http://test.com", createdTrelloCardDto.getShortUrl());
         assertEquals(null,trelloBadgesDto.getAttachmentsByType());
     }
 
