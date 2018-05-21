@@ -22,8 +22,7 @@ import static org.hamcrest.Matchers.hasSize;
 import static org.hamcrest.Matchers.is;
 import static org.mockito.ArgumentMatchers.anyList;
 import static org.mockito.ArgumentMatchers.any;
-import static org.mockito.Mockito.doNothing;
-import static org.mockito.Mockito.when;
+import static org.mockito.Mockito.*;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.*;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.jsonPath;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
@@ -88,6 +87,9 @@ public class TaskControllerTest {
                 .contentType(MediaType.APPLICATION_JSON)
                 .param("taskId", "1"))
                 .andExpect(status().is(200));
+
+        verify(service,times(1)).deleteTask(any());
+
     }
 
     @Test
@@ -129,5 +131,7 @@ public class TaskControllerTest {
                 .characterEncoding("UTF-8")
                 .content(jsonContent))
                 .andExpect(status().is(200));
+
+        verify(service,times(1)).saveTask(any());
     }
 }
